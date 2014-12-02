@@ -1,13 +1,14 @@
 ---
 title: Posts
 layout: page
-pageOrder: 2
+pageOrder: 1
 ---
 
-<nav class="linklist">
+<div class="list-group">
 	<% for document in @getCollection('posts').toJSON(): %>
-		<li><span><%= document.date.toDateString() %></span>
-		&raquo;
-		<a href="<%= document.url %>"><%= document.title %></a></li>
+		<a class="list-group-item" href="<%= document.url %>">
+			<small class="text-muted"><%= document.date.toDateString() %></small><br>
+			<span class="h4 text-primary"><%= document.title %></span>
+		</a>
 	<% end %>
-</nav>
+</div>
