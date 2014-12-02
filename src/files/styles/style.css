@@ -6,7 +6,10 @@ body {
   display: block!important;
   float: right;
 }
-
+.collapse {
+  display: block;
+  visibility: visible;
+}
 .navbar-nav>li, .navbar-nav {
   float: left !important;
 }

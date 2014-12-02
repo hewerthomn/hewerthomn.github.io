@@ -40,14 +40,14 @@ docpadConfig = {
 
 			# Styles
 			styles: [
-				"/vendor/twitter-bootstrap/dist/css/bootstrap.min.css"
+				"/packages/bootstrap/dist/css/bootstrap.min.css"
 				"/styles/style.css"
 			]
 
 			# Scripts
 			scripts: [
-				"//cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js"
-				"/vendor/twitter-bootstrap/dist/js/bootstrap.min.js"
+				"/packages/jquery/dist/jquery.min.js"
+				"/packages/bootstrap/dist/js/bootstrap.min.js"
 				"/scripts/script.js"
 			]
 
@@ -88,6 +88,9 @@ docpadConfig = {
 
 		posts: (database) ->
 			database.findAllLive({tags:$has:'post'}, [date:-1])
+		
+		projects: (database) ->
+			database.findAllLive({tags:$has:'projects'}, [date:-1])
 
 
 	# =================================
