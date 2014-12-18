@@ -1,18 +1,25 @@
 ---
-title: Projects
-layout: page
+title: My projects
+layout: project
 pageOrder: 2
 ---
 
-<div class="text-justify">
-    <p>
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-        sed diam nonummy nibh euismod tincidunt ut laoreet dolore
-        magna aliquam erat volutpat.
-    </p>
-    <p>
-        Ut wisi enim ad minim veniam,
-        quis nostrud exerci tation ullamcorper suscipit lobortis nisl
-        ut aliquip ex ea commodo consequat in futurum.
-    </p>
+<div class="list-group">
+<% for document in @getCollection('projects').toJSON(): %>
+    <a class="list-group-item col-sm-6" href="<%= document.url %>">
+		<span class="h4">
+        	<span class="text-primary"><%= document.title %></span>
+		    <br>
+		    <small>
+		        AngularJS app to search info about beers.
+		    </small>
+		</span>
+		<% if document.image: %>
+		<br><br>
+		<img src="<%= document.image %>" class="img-thumbnail">
+		<% end %>
+    </a>
+<% end %>
 </div>
+
+<br class="clearfix">

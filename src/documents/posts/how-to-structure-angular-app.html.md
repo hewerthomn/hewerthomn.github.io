@@ -1,7 +1,7 @@
 ```
 title: How to structure an AngularJS app
 layout: post
-tags: ['angular','post']
+tags: ['angular']
 date: 2014-12-05
 ```
 

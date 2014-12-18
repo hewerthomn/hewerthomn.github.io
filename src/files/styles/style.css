@@ -26,3 +26,7 @@ body {
   display: block;
   float: left;
 }
+
+.clearfix {
+  clear: both;
+}
