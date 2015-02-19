@@ -6,20 +6,18 @@ pageOrder: 2
 
 <div class="list-group">
 <% for document in @getCollection('projects').toJSON(): %>
-    <a class="list-group-item col-sm-6" href="<%= document.url %>">
-		<span class="h4">
-        	<span class="text-primary"><%= document.title %></span>
-		    <br>
-		    <small>
-		        AngularJS app to search info about beers.
-		    </small>
-		</span>
+    <a class="list-group-item col-md-6" href="<%= document.url %>">
+		<h4><span class="text-primary"><%= document.title %></span></h4>
+		<p>
+			<%= document.about %>
+		</p>
 		<% if document.image: %>
-		<br><br>
-		<img src="<%= document.image %>" class="img-thumbnail">
+		<br>
+		<p class="text-center">
+			<img src="<%= document.image %>" class="img-thumbnail">
+		</p>
 		<% end %>
     </a>
 <% end %>
+	<br class="clearfix"></br>
 </div>
-
-<br class="clearfix">
