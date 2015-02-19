@@ -33,14 +33,14 @@ docpadConfig = {
 				"""
 
 			# The website author's name
-			author: "Everton Inocencio <hewerthomn>"
+			author: "Éverton Inocêncio <hewerthomn>"
 
 			# The website author's email
 			email: "hewerthomn@gmail.com"
 
 			# Styles
 			styles: [
-				"/packages/bootstrap/dist/css/bootstrap.min.css"
+				"/styles/bootstrap-united.min.css",
 				"/styles/style.css"
 			]
 
