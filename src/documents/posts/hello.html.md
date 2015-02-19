@@ -1,7 +1,7 @@
 ```
 title: This is a Hello Blog Post
 layout: post
-tags: ['intro','post']
+tags: ['intro']
 date: 2014-12-04
 ```
 
