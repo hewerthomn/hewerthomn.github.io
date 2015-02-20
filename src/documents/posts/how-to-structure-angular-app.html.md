@@ -28,6 +28,8 @@ structure.
 
 Let's start! :D
 
+---
+
 ### Setup dependencies
 
 First we need to setup some dependencies tools to start the development.
@@ -47,6 +49,7 @@ The param -g installs bower globaly to run the command in any directory.
 To test if bower's working run the command `bower` in your terminal to see the
 commands list.
 
+--- 
 
 ### Folder structure
 
@@ -80,6 +83,8 @@ To create this directories run the command above in your terminal:
 mkdir -p app/scripts/controllers && mkdir app/scripts/directives && mkdir app/scripts/services && mkdir -p app/views/directives && mkdir app/views/partials && mkdir css && mkdir img
 ```
 
+--- 
+
 ### Install the packages
 
 I prefer to change the default directory of bower packages called `bower_components`
@@ -92,12 +97,60 @@ folder app called `.bowerrc` with the content:
 }
 ```
 
-Now we will install the AngularJS and the Twitter Bootstrap running the above
-commands in your terminal:
+Now we will install the AngularJS running the above commands in your terminal:
 
 ```
-bower install angular bootstrap
+bower install angular angular-route
 ```
 
-This single command will clone the AngularJS repository and the 
-Twitter Bootstrap (and your dependency, the jQuery library) in the packages folder.
+This single command will clone the AngularJS repository and the ngRoute package in the packages folder.
+
+---
+
+### Create the index page
+
+The index page with the ng-view directive and the include the scripts.
+
+```
+<!DOCTYPE html>
+<html ng-app="app" lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Angular App</title>
+</head>
+<body>
+
+	<ng-view></ng-view>
+	
+	<script src="packages/angular/angular.js"></script>
+
+	<!-- app scripts -->
+	<script src="app/scripts/controllers/main.js"></script>
+	<script src="app/scripts/controllers/HomeCtrl.js"></script>
+	<script src="app/scripts/app.js"></script>
+</body>
+</html>
+```
+
+app.js
+
+```
+angular.module('app', [
+	'ngRoute',
+
+	'app.controllers'
+])
+.config(['$routeProvider', function($routeProvider) {
+	$routeProvider
+		.when('/home', {
+			controller:  'HomeCtrl',
+			templateUrl: 'app/views/home.html'
+		})
+		.when('/about', {
+			templateUrl: 'app/views/about.html'
+		})
+		.otherwise({
+			redirectTo: '/home'
+		});
+}]);
+```
