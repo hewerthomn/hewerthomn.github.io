@@ -257,3 +257,94 @@ function HomeCtrl($scope)
 };
 /* contents omitted for brevity... */
 ```
+
+---
+
+### App service
+Like the controllers, we will create a `main.js` file to create the *app.services* module. And will put a 
+
+*app/scripts/services/main.js*
+``` javascript
+angular.module('app.services', []);
+```
+*app/scripts/services/AppService.js*
+``` javascript
+(function() {
+
+	function App($http)
+	{
+		return {
+
+			Repository: {
+
+				search: function(query)
+				{
+					return $http.get('https://api.github.com/search/repositories', {
+						params: {
+							q: query,
+							sort: 'stars',
+							order: 'desc'
+						}
+					});
+				}
+			}
+		};
+	};
+
+	angular
+		.module('app.services')
+		.service('App', ['$http', App]);
+})();
+```
+
+Instead of put the HTTP requests inside the controller, we will create a service to put all this requests there.
+In the `index.html` file include the reference to services file after the controller files, 
+and in the `app/scripts/app.js` file include reference to the *app.services* module after the *app.controllers* module. Now, in the `app/scripts/controllers/HomeCtrl.js` file we has to include the App service reference in the controller constructor and the controller params list.
+
+*index.html*
+``` html
+<!-- content omitted for brevity... -->
+<script src="app/scripts/services/main.js"></script>
+<script src="app/scripts/services/AppService.js"></script>
+<!-- content omitted for brevity... -->
+```
+
+*app/scripts/app.js*
+``` javascript
+angular.module('app', [
+	'ngRoute',
+
+	'app.controllers',
+	'app.services'
+])
+/* content ommited for brevity... */
+```
+
+*app/scripts/controllers/HomeCtrl.js*
+``` javascript
+/* ... */
+function HomeCtrl($scope, App)
+{
+	/* content ommited for brevity... */
+	$scope.searchRepositories = function(query)
+	{
+		App.Repository.search(query)
+			.success(function(response) {
+
+				$scope.$apply(function() {
+					$scope.totalCount = response.total_count;
+					$scope.repositories = response.items;
+				});
+
+			})
+			.error(function(error) {
+				console.error(error);
+			});
+	};
+	/* content ommited for brevity... */
+};
+
+angular
+	.module('app.controllers')
+	.controller('HomeCtrl', ['$scope', 'App', HomeCtrl]);
+```
