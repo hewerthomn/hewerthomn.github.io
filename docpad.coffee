@@ -41,6 +41,7 @@ docpadConfig = {
 			# Styles
 			styles: [
 				"/styles/bootstrap-united.min.css",
+				"/styles/highlightjs/default.css",
 				"/styles/style.css"
 			]
 
