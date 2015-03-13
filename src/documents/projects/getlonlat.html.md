@@ -4,7 +4,7 @@ about: App utilitário para obter longitude e latitude de um lugar.
 layout: project
 image: '/images/getlonlat.png'
 tags: ['project', 'angular', 'openlayers']
-date: 2015-02-19
+order: 4
 ```
 
 <img src="/images/getlonlat.png" class="img-thumbnail">

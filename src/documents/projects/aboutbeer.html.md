@@ -4,7 +4,7 @@ about: App para buscar informação sobre cervejas.
 layout: project
 image: '/images/aboutbeer.png'
 tags: ['project', 'angular', 'api']
-date: 2014-12-18
+order: 3
 ```
 
 <img src="/images/aboutbeer.png" class="img-thumbnail">
