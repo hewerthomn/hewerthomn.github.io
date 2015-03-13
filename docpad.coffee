@@ -24,7 +24,7 @@ docpadConfig = {
 
 			# The website description (for SEO)
 			description: """
-				Personal web page.
+				Página pessoal.
 				"""
 
 			# The website keywords (for SEO) separated by commas

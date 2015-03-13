@@ -72,7 +72,7 @@
 				<small>&copy; <b><%- (new Date()).getFullYear() %></b> - <%= @site.title %></small>
 			</p>
 			<p class="hidden-xs pull-right text-right">
-				<small class="text-muted">Updated at <%= @site.date.toGMTString() %></small>
+				<small class="text-muted">Atualizado em <%= @site.date.toGMTString() %></small>
 			</p>
 		</footer>
 	</div><!-- /container -->

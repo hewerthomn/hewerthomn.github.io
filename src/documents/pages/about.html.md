@@ -1,7 +1,6 @@
 ---
-title: About me
+title: Sobre
 layout: page
-pageOrder: 3
 ---
 
 Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
