@@ -1,6 +1,7 @@
 ---
 title: Posts
 layout: page
+icon: 'fa fa-file-text-o'
 pageOrder: 1
 ---
 

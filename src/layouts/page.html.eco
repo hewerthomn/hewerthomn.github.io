@@ -3,6 +3,9 @@ layout: default
 ---
 
 <article id="page" class="page">
-	<h3 class="title"><%= @document.title %></h3>
+	<h3 class="title">
+		<i class="text-muted <%= @document.icon %>"></i>
+		<%= @document.title %>
+	</h3>
 	<div class="page-content"><%- @content %></div>
 </article>
