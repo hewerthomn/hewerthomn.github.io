@@ -51,7 +51,11 @@
 			<div class="navbar-collapse collapse" id="bs-navbar-collapse">
 				<ul class="nav navbar-nav navbar-right">
 					<% for page in @getCollection('pages').toJSON(): %>
-						<li><a href="<%= page.url %>" class="text-upper"><%= page.title.toUpperCase() %></a></li>
+						<li>
+							<a href="<%= page.url %>" class="text-upper">
+								<b class="text-primary"><%= page.title.toUpperCase() %></b>
+							</a>
+						</li>
 					<% end %>
 			  </ul>
 			</div><!--/.navbar-collapse -->
