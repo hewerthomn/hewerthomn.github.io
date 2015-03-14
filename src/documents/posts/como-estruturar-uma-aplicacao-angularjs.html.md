@@ -1,36 +1,25 @@
 ```
-title: How to structure an AngularJS app
+title: Como estruturar um app AngularJS
 layout: post
 tags: ['angular']
 date: 2014-12-05
 ```
+Olá!
 
-###***Working in progress...***###
+Após finalizar o [tutorial PhoneCat](https://docs.angularjs.org/tutorial) na página de documentação oficial do AngularJS, comecei a pensar como eu poderia estruturar melhor um app com AngularJS.
 
+O app criado no tutorial é bem simples e os módulos são incluídos em um único arquivo javacript como no arquivo `controllers.js`.
+Usar essa estrutura não será um problema se seu app for bem pequeno, como o do tutorial, mas se ele começar a crescer com o tempo, essa abordagem será mais complicada de manter.
 
-Hello :D
+Então fui atrás de pesquisar como eu poderia estruturar melhor o app e aplicar algumas boas práticas de nomenclatura de módulos.
 
-After finished the [PhoneCat Tutorial](https://docs.angularjs.org/tutorial)
-at the AngularJS docs I be worried how to structure an AngularJS app.
-The app in tutorial is very simple and some components are included in a single
-file like `controllers.js`.
+Vamos começar! :D
 
-This structure can't be a trouble if your app is very small, like the PhoneCat 
-app, but as the app start to grow this aproach can be hard to maintain.
-
-So I researched over the internet how I can structure my AngularJS app and some 
-good practices to use.
-
-** This is not a definitive guide and can be improved over time. **
-
-In this tutorial I will show how to create an simple AngularJS app with this
-structure.
-
-Let's start! :D
+*Isso não é um guia definitivo e não tem pretensão de ser, apenas foi uma forma que encontrei para melhor organizar os códigos.*
 
 ---
 
-### Setup dependencies
+#### Configurar dependências
 
 First we need to setup some dependencies tools to start the development.
 If you already has installed nodejs, npm and bower jump to next section.
