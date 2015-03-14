@@ -2,10 +2,9 @@
 layout: default
 ---
 
-<article id="post" class="post">
-	<h1><%= @document.title %></h1>
-	<hr>
-	<div class="post-content"><%- @content %></div>
+<article id="post" class="page">
+	<h3 class="title"><%= @document.title %></h3>
+	<div class="page-content"><%- @content %></div>
 </article>
 
 <footer>

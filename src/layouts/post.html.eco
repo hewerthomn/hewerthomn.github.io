@@ -3,7 +3,7 @@ layout: default
 ---
 
 <article id="post" class="post">
-	<h1><%= @document.title %></h1>
+	<h2><%= @document.title %></h2>
 	<hr>
 	<div class="post-content"><%- @content %></div>
 </article>

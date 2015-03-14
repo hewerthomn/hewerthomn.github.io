@@ -4,6 +4,7 @@ body {
 
 .page .title {
 	border-bottom: 1px #EEE solid;
+	padding-bottom: 10px;
 }
 
 .clearfix {
