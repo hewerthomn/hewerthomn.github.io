@@ -7,22 +7,20 @@ tags: ['project', 'angular', 'api']
 order: 3
 ```
 
-<img src="/images/aboutbeer.png" class="img-thumbnail">
-
 App para buscar informação sobre cervejas.
 
+<p class="text-center">
+	<img src="/images/aboutbeer.png" class="img-thumbnail">	
+</p>
+
 <hr>
-<table class="table table-condensed table-striped table-bordered">
-  <tr>
-    <th>Demo</th>
-    <td>[aboutbeer.hewertho.mn](http://aboutbeer.hewertho.mn)</td>
-  </tr>
-  <tr>
-    <th>Powered by</th>
-    <td>[AngularJS](http://angularjs.org) & [BreweryDB API](http://www.brewerydb.com/developers)</td>
-  </tr>
-  <tr>
-    <th>Repositório</th>
-    <td>[github.com/hewerthomn/aboutbeer](http://github.com/hewerthomn/aboutbeer.git)</td>
-  </tr>
-</table>
+
+**Demo**
+	[aboutbeer.hewertho.mn](http://aboutbeer.hewertho.mn)
+
+**Repositório**
+  [github.com/hewerthomn/aboutbeer](http://github.com/hewerthomn/aboutbeer.git)
+
+**Powered by**
+	[AngularJS](http://angularjs.org) & 
+	[BreweryDB API](http://www.brewerydb.com/developers)
