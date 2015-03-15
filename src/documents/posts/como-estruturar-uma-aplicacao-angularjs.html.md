@@ -21,36 +21,33 @@ Vamos começar! :D
 
 #### Configurar dependências
 
-First we need to setup some dependencies tools to start the development.
-If you already has installed nodejs, npm and bower jump to next section.
+Primeiro precisamos configurar algumas dependências para iniciar o desenvolvimento.
+Se você já tem o *nodejs*, *npm* e o *bower* instalados, avance para o próximo tópico.
 
-The first dependency to install is the [nodejs](http://nodejs.org/) 
-(and npm if is not present).
+A primeira dependência a instalar é o [nodejs](http://nodejs.org/) (e o npm se não estiver instalado).
 
-After npm installed, we need to install the [bower](http://bower.io/) to
-manage our font-end packages.
+Depois do npm instalado, precisamos instalar o [bower](http://bower.io/) para gerenciar os pacotes font-end.
 
 ```
 $ npm install -g bower
 ```
-The param -g installs bower globaly to run the command in any directory.
+O parâmetro -g instala o pacote bower globalmente para poder executar de qualquer diretório.
 
-To test if bower's working run the command `bower` in your terminal to see the
-commands list.
+Para testar se o bower está funcionando corretamente, execute o comando `bower` no terminal para ver a lista de comandos disponíveis.
 
 --- 
 
-### Folder structure
+#### Estutura de diretórios
 
-Create a folder to your project and enter there.
+Crie o diretório do projeto e navegue até ele.
 
 ```
 $ mkdir myapp && cd myapp
 ```
 
-The basic folder structure can be like above.
+A estrutura básica de diretórios pode ser como abaixo.
 
-You should add others folders if you need then, like `app/tests`, `app/scripts/providers`, etc.
+Você deve adicionar outros diretórios se precisar deles, como por exemplo `app/tests`, `app/scripts/providers`, etc.
 
 ```
 myapp
@@ -66,7 +63,7 @@ myapp
 --img
 ```
 
-To create this directories run the command above in your terminal:
+Para criar todos esses diretórios de uma vez execute o comando abaixo no terminal:
 
 ```
 mkdir -p app/scripts/controllers && mkdir app/scripts/directives && mkdir app/scripts/services && mkdir -p app/views/directives && mkdir app/views/partials && mkdir css && mkdir img
@@ -74,11 +71,9 @@ mkdir -p app/scripts/controllers && mkdir app/scripts/directives && mkdir app/sc
 
 --- 
 
-### Install the packages
+#### Instalando os pacotes
 
-I prefer to change the default directory of bower packages called `bower_components`
-to `packages`, to do this I create a file at the root of
-folder app called `.bowerrc` with the content:
+Eu prefiro mudar o diretório padrão dos pacotes do bower chamado `bower_components` para `packages`, para fazer isso crio um arquivo `.bowerrc` no diretório raiz do projeto com o seguinte conteúdo:
 
 ``` javascript
 {
@@ -86,19 +81,21 @@ folder app called `.bowerrc` with the content:
 }
 ```
 
-Now we will install the AngularJS running the above commands in your terminal:
-
+Agora vamos instalar o AngularJS executando o comando abaixo no terminal:
 ```
 bower install angular angular-route
 ```
 
-This single command will clone the AngularJS repository and the package angular-route in the packages folder.
+Esse simples comando irá clonar o repositório do AngularJS e do pacote angular-route no diretório de pacotes.
 
 ---
 
-### Create the index page
+#### Criar a página index
 
-I added the Yeti bootstrap theme for the UI and a custom style css. The ng-view directive is the place that our views will be rendered. After the ng-view directive, I included the angular file and the package angular-route, if you used the default directory of bower, the path will start with `bower_components/`.
+Adicionei o tema [Yeti do Bootstrap](https://bootswatch.com/yeti/) para a interface mais agradável e um arquivo css para os estilos do app.
+A diretiva `ng-view` é o local onde será exibido o conteúdo renderizado das views. Mais abaixo é incluído os arquivos de scripts das bibliotecas utilizadas e os do app.
+
+*Se você usou o diretório padrão do bower, o caminho das bibliotecas começará com `bower_componenets`.*
 
 *index.html*
 ``` html
@@ -134,8 +131,9 @@ I added the Yeti bootstrap theme for the UI and a custom style css. The ng-view 
 
 ---
 
-The file `app/scripts/app.js` is where we setup de application. Here we define the modules used and configure the global settings of the app, like the routes.
-The `app/scripts/controllers/main.js` is only to create the *app.controllers* module. Next, the file `app/scripts/controllers/HomeCtrl.js` has a empty controller in a Immediately-invoked function expression ([IIFE](http://en.wikipedia.org/wiki/Immediately-invoked_function_expression)).
+O arquivo `app/scripts/app.js` é onde nós configuramos o app. Aqui definimos os módulos usados e as configurações globais, como as rotas. O arquivo `app/scripts/controllers/main.js` é apenas para criar o módulo vazio *app.controllers*.
+
+Em seguida, o arquivo `app/scripts/controllers/HomeCtrl.js` tem um controller vazio dentro de uma função anônima auto-invocada ([IIFE](http://en.wikipedia.org/wiki/Immediately-invoked_function_expression)).
 
 *app/scripts/app.js*
 ``` javascript
@@ -184,8 +182,10 @@ angular.module('app.controllers', []);
 
 ---
 
-### Home view
+#### View home
+
 Here we will put an input with model named search and the ng-change directive with `searchRepositories(search);` value. The `searchRepositories()` method exists in the `HomeCtrl` controller and will fire always the model search change his value.
+
 Next we has a list-group-item with ng-repeat directive, this will loop the `$scope.repositories` variable like a foreach statement and a ng-click directive that will fire the `selectRepository()` method when the user clicks in a list-group-item.
 
 *app/views/home.html*
