@@ -184,15 +184,15 @@ angular.module('app.controllers', []);
 
 #### View home
 
-Here we will put an input with model named search and the ng-change directive with `searchRepositories(search);` value. The `searchRepositories()` method exists in the `HomeCtrl` controller and will fire always the model search change his value.
+Aqui vamos colocar um input com o model chamado search e a diretiva `ng-change` com o valor `searchRepositories(search);`. O método `searchRepositories()` existe no controller `HomeCtrl` e irá dispará sempre que o model search mudar seu valor.
 
-Next we has a list-group-item with ng-repeat directive, this will loop the `$scope.repositories` variable like a foreach statement and a ng-click directive that will fire the `selectRepository()` method when the user clicks in a list-group-item.
+Em seguida temos um list-group-item com a diretiva `ng-repeat` que irá percorrer a variável `$scope.repositories`, como a instrução `foreach`, e a diretiva `ng-click` que irá disparar o método `selectRepository()` quando o usuário clicar/tocar em um list-group-item.
 
 *app/views/home.html*
 ``` html
 <h1>
 	Repository Finder
-	<small>Search for GitHub repositories.</small>
+	<small>Search for GitHub repositories.</small> 
 </h1>
 <hr>
 
@@ -214,12 +214,13 @@ Next we has a list-group-item with ng-repeat directive, this will loop the `$sco
 
 ---
 
-### Home controller methods
-I prefix with undescore the methods used only in the controller, like the `_init()` method and I only added to `$scope` variable the methods and variables that will be used on the views.
+#### Métodos do controller HomeCtrl
+
+Eu prefixo com underscore os métodos usados apenas no controller, como o método `_init()` e só adiciono a variável `$scope` os métodos e variáveis que serão usadas nas views.
 
 *app/scripts/controllers/HomeCtrl.js*
 ``` javascript
-/* contents omitted for brevity... */
+/* conteúdo omitido por brevidade... */
 function HomeCtrl($scope)
 {
 	/* private methods */
@@ -244,13 +245,14 @@ function HomeCtrl($scope)
 
 	_init();
 };
-/* contents omitted for brevity... */
+/* conteúdo omitido por brevidade... */
 ```
 
 ---
 
-### App service
-Like the controllers, we will create a `main.js` file to create the *app.services* module. And will put a 
+#### Service App
+
+Aqui nós também criamos um arquivo `main.js` para iniciar o módulo *app.services*.
 
 *app/scripts/services/main.js*
 ``` javascript
@@ -286,16 +288,17 @@ angular.module('app.services', []);
 })();
 ```
 
-Instead of put the HTTP requests inside the controller, we will create a service to put all this requests there.
-In the `index.html` file include the reference to services file after the controller files, 
-and in the `app/scripts/app.js` file include reference to the *app.services* module after the *app.controllers* module. Now, in the `app/scripts/controllers/HomeCtrl.js` file we has to include the App service reference in the controller constructor and the controller params list.
+Envés de fazer requisições HTTP direto do controller, criaremos um serviço para centralizar essas requisições e invoca-lás quando necessárias.
+
+No arquivo `index.html` adicione referência aos arquivos de serviços depois dos arquivos dos controllers, e no arquivo `app/scripts/app.js` adicione referência ao módulo *app.services* depois do módulo *app.controllers*.
+Agora, no arquivo `app/scripts/controllers/HomeCtrl.js` nós vamos adicionar a referência ao serviço App no construtor do controller e na lista de parâmetros do controller.
 
 *index.html*
 ``` html
-<!-- content omitted for brevity... -->
+<!-- conteúdo omitido por brevidade... -->
 <script src="app/scripts/services/main.js"></script>
 <script src="app/scripts/services/AppService.js"></script>
-<!-- content omitted for brevity... -->
+<!-- conteúdo omitido por brevidade... -->
 ```
 
 *app/scripts/app.js*
@@ -306,7 +309,7 @@ angular.module('app', [
 	'app.controllers',
 	'app.services'
 ])
-/* content ommited for brevity... */
+/* conteúdo omitido por brevidade... */
 ```
 
 *app/scripts/controllers/HomeCtrl.js*
@@ -314,7 +317,7 @@ angular.module('app', [
 /* ... */
 function HomeCtrl($scope, App)
 {
-	/* content ommited for brevity... */
+	/* conteúdo omitido por brevidade... */
 	$scope.searchRepositories = function(query)
 	{
 		App.Repository.search(query)
@@ -330,7 +333,7 @@ function HomeCtrl($scope, App)
 				console.error(error);
 			});
 	};
-	/* content ommited for brevity... */
+	/* conteúdo omitido por brevidade... */
 };
 
 angular
