@@ -1,26 +1,55 @@
 ```
 title: getLonLat
-about: App utilitário para obter longitude e latitude de um lugar.
+about: App utilitário para obter coordenadas geográficas de um lugar do mapa.
 layout: project
 image: '/images/getlonlat.png'
-tags: ['project', 'angular', 'openlayers']
+tags: ['project', 'angular', 'cordova', 'openlayers']
 order: 4
 ```
 
-<img src="/images/getlonlat.png" class="img-thumbnail">
+<div class="row">
+<div class="col-sm-7">
+	<p>
+		<b>getLonLat</b> é um utilitário para obter coordenadas geográficas de um lugar no mapa.
+	</p>
 
-App utilitário para obter longitude e latitude de um lugar no mapa.
+	<p>
+		Permite procurar localização por endereço ou usando [Geolocalização](http://en.wikipedia.org/wiki/Geolocation).
+		<br>
+		Também permite converter as coordenadas para outras projeções.
+	</p>
 
-Procure a localização pelo nome do lugar, geolocalização ou GeoIP e converta para outras projeções.
+	<p>
+		Na versão web pode usar localização por [GeoIP](http://pt.wikipedia.org/wiki/Geo_ip),
+		<br>
+		e na versão Android pode salvar suas coordenadas favoritas.
+	</p>
+
+	<hr>
+
+	<div class="text-center">
+		<h4><a href="http://getlonlat.hewertho.mn" target="_blank">http://getlonlat.hewertho.mn</a></h4>
+		<h3>Ou</h3>
+		<a href="https://play.google.com/store/apps/details?id=mn.hewertho.getlonlat.app" target="_blank">
+			<img src="/images/google-play.png">
+		</a>
+	</div>
 
 <hr>
+</div>
 
-**Demo**
-	[getlonlat.hewertho.mn](http://getlonlat.hewertho.mn)
+<div class="col-sm-5 text-center">
+	<a href="http://getlonlat.hewertho.mn" target="_blank">
+		<img src="/images/getlonlat-print-web.png" class="img-thumbnail">
+	</a>
 
-**Repositório**
-  [github.com/hewerthomn/getlonlat](http://github.com/hewerthomn/getlonlat.git)
+	<br>
+	<br>
 
-**Powered by**
-	[AngularJS](http://angularjs.org) & 
-	[OpenLayers 2](http://www.openlayers.org/two)
+	<a href="https://play.google.com/store/apps/details?id=mn.hewertho.getlonlat.app" target="_blank">
+		<img src="/images/getlonlat-print-android.png" class="img-thumbnail">
+	</a>
+</div>
+</div>
+
+
