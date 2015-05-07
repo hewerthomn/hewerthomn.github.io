@@ -37,7 +37,7 @@
 <body>
 	<!-- Menu -->
 	<nav class="navbar navbar-default navbar-fixed-top">
-		<div class="container-fluid">
+		<div class="container">
 			<header class="navbar-header">
 	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-collapse">
 	        <span class="sr-only">Toggle navigation</span>
@@ -63,7 +63,7 @@
 	</nav>
 
 	<!-- Content -->
-	<div class="container-fluid">
+	<div class="container">
 		<!-- Content -->
 		<section id="content" class="content">
 			<%- @content %>
