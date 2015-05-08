@@ -28,8 +28,10 @@ order: 4
 	<hr>
 
 	<div class="text-center">
-		<h4><a href="http://getlonlat.hewertho.mn" target="_blank">http://getlonlat.hewertho.mn</a></h4>
-		<h3>Ou</h3>
+		<h4>
+			<a href="http://getlonlat.hewertho.mn" target="_blank">http://getlonlat.hewertho.mn</a>
+		</h4>
+		<h4 class="text-muted">Ou</h4>
 		<a href="https://play.google.com/store/apps/details?id=mn.hewertho.getlonlat.app" target="_blank">
 			<img src="/images/google-play.png">
 		</a>
