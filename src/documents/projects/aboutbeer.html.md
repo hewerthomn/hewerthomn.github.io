@@ -1,26 +1,29 @@
 ```
 title: AboutBeer
-about: App para buscar informação sobre cervejas.
+about: App para encontrar informações sobre cervejas e cervejarias.
 layout: project
 image: '/images/aboutbeer.png'
 tags: ['project', 'angular', 'api']
 order: 3
 ```
+<div class="row">
+<div class="col-md-7">
+	<p>
+		<b>AboutBeer</b> é um app para encontrar informações sobre cervejas e cervejarias.
+	</p>
 
-App para buscar informação sobre cervejas.
+	<hr>
 
-<p class="text-center">
-	<img src="/images/aboutbeer.png" class="img-thumbnail">	
-</p>
+	<div class="text-center">
+		<a href="https://play.google.com/store/apps/details?id=mn.hewertho.aboutbeer.app" target="_blank">
+			<img src="/images/google-play.png">
+		</a>
+	</div>
+</div>
 
-<hr>
-
-**Demo**
-	[aboutbeer.hewertho.mn](http://aboutbeer.hewertho.mn)
-
-**Repositório**
-  [github.com/hewerthomn/aboutbeer](http://github.com/hewerthomn/aboutbeer.git)
-
-**Powered by**
-	[AngularJS](http://angularjs.org) & 
-	[BreweryDB API](http://www.brewerydb.com/developers)
+<div class="col-md-5 text-center">
+	<a href="https://play.google.com/store/apps/details?id=mn.hewertho.aboutbeer.app" target="_blank">
+		<img src="/images/aboutbeer.png" class="img-thumbnail">	
+	</a>
+</div>
+</div>
