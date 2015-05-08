@@ -7,13 +7,22 @@ tags: ['project', 'angular']
 order: 5
 ```
 
-Módulo AngularJS para obter focus de um input HTML.
+<div class="row">
+<div class="col-md-7">
+	<p>
+		<b>Angular Focus It</b> é um módulo AngularJS para obter focus de um input HTML.
+	</p>
 
-<p class="text-center">
-	<img src="/images/angular-focus-it.png" class="img-thumbnail">	
-</p>
+	<hr>
 
-<hr>
+	<div class="text-center">
+		<h5><a href="http://github.com/hewerthomn/angular-focus-it.git" target="_blank">http://github.com/hewerthomn/angular-focus-it.git</a></h5>
+	</div>
+</div>
 
-**Repositório**
-  [github.com/hewerthomn/angular-focus-it](http://github.com/hewerthomn/angular-focus-it.git)
+<div class="col-md-5 text-center">
+	<a href="http://github.com/hewerthomn/angular-focus-it.git" target="_blank">
+		<img src="/images/angular-focus-it.png" class="img-thumbnail">
+	</a>
+</div>
+</div>
