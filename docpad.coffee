@@ -41,15 +41,15 @@ docpadConfig = {
 			# Styles
 			styles: [
 				"/styles/bootstrap-paper.css",
-				"/packages/font-awesome/css/font-awesome.css",
+				"/styles/font-awesome.min.css",
 				"/styles/highlightjs/default.css",
 				"/styles/style.css"
 			]
 
 			# Scripts
 			scripts: [
-				"/packages/jquery/dist/jquery.min.js"
-				"/packages/bootstrap/dist/js/bootstrap.min.js"
+				"/scripts/jquery.min.js"
+				"/scripts/bootstrap.min.js"
 				"/scripts/script.js"
 			]
 
