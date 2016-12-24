@@ -12,11 +12,10 @@ docpadConfig = {
 		# Specify some site properties
 		site:
 			# The production url of our website
-			url: "http://hewertho.mn"
+			url: "http://hewerthomn.com"
 
 			# Here are some old site urls that you would like to redirect from
 			oldUrls: [
-				'www.evertoninocencio.com.br',
 			]
 
 			# The default title of our website
@@ -24,7 +23,7 @@ docpadConfig = {
 
 			# The website description (for SEO)
 			description: """
-				Página pessoal.
+				Personal website.
 				"""
 
 			# The website keywords (for SEO) separated by commas
