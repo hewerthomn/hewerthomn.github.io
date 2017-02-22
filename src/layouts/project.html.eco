@@ -3,6 +3,10 @@ layout: default
 ---
 
 <article id="post" class="page">
-	<h3 class="title"><%= @document.title %></h3>
-	<div class="page-content"><%- @content %></div>
+	<h3 class="title">
+    <%= @document.title %>
+  </h3>
+	<div class="page-content">
+    <%- @content %>
+  </div>
 </article>

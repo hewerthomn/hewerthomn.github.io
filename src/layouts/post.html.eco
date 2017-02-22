@@ -3,19 +3,27 @@ layout: default
 ---
 
 <article id="post" class="page">
-	<h3 class="title"><%= @document.title %></h3>
-	<div class="page-content"><%- @content %></div>
+	<h3 class="title">
+    <%= @document.title %>
+  </h3>
+	<div class="page-content">
+    <%- @content %>
+  </div>
 </article>
 
 <footer>
 	<% if  @document.relatedDocuments and @document.relatedDocuments.length: %>
 	<section id="related">
-		<h3>Posts relacionados</h3>
+		<h3>
+      Posts relacionados
+    </h3>
 		<nav class="linklist">
 			<% for document in @document.relatedDocuments: %>
-				<li><span><%= document.date.toDateString() %></span>
-				&raquo;
-				<a href="<%= document.url %>"><%= document.title %></a></li>
+				<li>
+          <span><%= document.date.toDateString() %></span>
+		      &raquo;
+          <a href="<%= document.url %>"><%= document.title %></a>
+        </li>
 			<% end %>
 		</nav>
 	</section>

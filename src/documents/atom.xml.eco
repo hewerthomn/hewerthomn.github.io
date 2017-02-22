@@ -9,7 +9,6 @@
 		<name><%= @site.author %></name>
 		<email><%= @site.email %></email>
 	</author>
-
 	<% for document in @getCollection('posts').toJSON(): %>
 		<entry>
 			<title><%= document.title %></title>
