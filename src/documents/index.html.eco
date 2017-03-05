@@ -37,3 +37,30 @@ title: 'Éverton Inocêncio'
     LinkedIn
   </a>
 </div>
+
+<br>
+<br>
+
+<fieldset>
+  <legend>Projetos</legend>
+
+  <div class="row">
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+      <div class="thumbnail" style="min-height:250px">
+        <a href="https://sabede.us">
+          <img src="/images/projects/sabedeus.png" alt="logo">
+        </a>
+        <div class="caption">
+          <h4>
+            <a href="https://sabede.us">
+              SabeDeus
+            </a>
+          </h4>
+          <p class="text-justify">
+            Descubra onde encontrar suas bebidas preferidas.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</fieldset>

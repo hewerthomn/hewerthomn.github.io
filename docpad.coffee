@@ -39,7 +39,7 @@ docpadConfig = {
 
 			# Styles
 			styles: [
-				"/styles/bootstrap-paper.css",
+				"/styles/bootstrap-darkly.css",
 				"/styles/font-awesome.min.css",
 				"/styles/highlightjs/default.css",
 				"/styles/style.css"
@@ -89,10 +89,6 @@ docpadConfig = {
 
 		posts: (database) ->
 			database.findAllLive({tags:$has:'post'}, [date:-1])
-		
-		projects: (database) ->
-			database.findAllLive({tags:$has:'project'}, [order:1])
-
 
 	# =================================
 	# Plugins
