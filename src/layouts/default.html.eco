@@ -37,17 +37,6 @@
 	<%- @getBlock('styles').add(@site.styles).toHTML() %>
 </head>
 <body>
-	<!-- Menu -->
-	<nav class="navbar navbar-default navbar-fixed-top">
-		<div class="container">
-			<header class="navbar-header">
-				<a class="navbar-brand" href="/">
-          <%= @site.title %>
-        </a>
-    	</header>
-		</div>
-	</nav>
-
 	<!-- Content -->
 	<div class="container">
 		<!-- Content -->
