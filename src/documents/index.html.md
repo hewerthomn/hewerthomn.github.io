@@ -18,16 +18,16 @@ title: 'Éverton Inocêncio'
 </div>
 
 <div class="text-center">
-	<a href="https://github.com/hewerthomn" title="GitHub" class="btn btn-link color-github">
+	<a href="https://github.com/hewerthomn" title="GitHub" class="btn btn-sm btn-default color-github">
     <i class="fa fa-github-alt fa-lg"></i>
     GitHub
   </a>
 
-	<a href="https://fb.com/hewerthomn" title="Facebook" class="btn btn-link color-facebook">
+	<a href="https://fb.com/hewerthomn" title="Facebook" class="btn btn-sm btn-default color-facebook">
     <i class="fa fa-facebook-official fa-lg"></i> acebook
   </a>
 
-	<a href="https://br.linkedin.com/pub/éverton-inocêncio/2a/229/795/pt" title="LinkedIn" class="btn btn-link color-linkedin">
+	<a href="https://br.linkedin.com/pub/éverton-inocêncio/2a/229/795/pt" title="LinkedIn" class="btn btn-sm btn-default color-linkedin">
     <i class="fa fa-linkedin-square fa-lg"></i>
     LinkedIn
   </a>
