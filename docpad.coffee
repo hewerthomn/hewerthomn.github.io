@@ -28,7 +28,7 @@ docpadConfig = {
 
 			# The website keywords (for SEO) separated by commas
 			keywords: """
-				everton inocencio, hewerthomn, angular, openlayers, arduino, laravel
+				everton inocencio, hewerthomn, angular, openlayers, arduino, laravel, php, python
 				"""
 
 			# The website author's name
@@ -39,9 +39,9 @@ docpadConfig = {
 
 			# Styles
 			styles: [
-				"/styles/bootstrap-darkly.css",
-				"/styles/font-awesome.min.css",
-				"/styles/highlightjs/default.css",
+				"/styles/bootstrap.min.css"
+				"/styles/font-awesome.min.css"
+				"/styles/highlightjs/default.css"
 				"/styles/style.css"
 			]
 

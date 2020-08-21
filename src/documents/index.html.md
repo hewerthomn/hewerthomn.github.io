@@ -5,14 +5,14 @@ title: 'Éverton Inocêncio'
 
 <br>
 <div class="text-center">
-	<img src="/images/avatar.jpg" class="avatar-home img-circle img-thumbnail">
+	<img src="/images/avatar.png" class="avatar-home img-circle img-thumbnail">
 
 	<blockquote>
-		<h4 class="text-primary">
+		<h1 class="text-primary">
       Éverton Inocêncio
-    </h4>
+    </h1>
 		<footer>
-      Artesão de Software
+      Software craftsman
     </footer>
 	</blockquote>
 </div>
@@ -23,10 +23,6 @@ title: 'Éverton Inocêncio'
     GitHub
   </a>
 
-	<a href="https://fb.com/hewerthomn" title="Facebook" class="btn btn-sm btn-default color-facebook">
-    <i class="fa fa-facebook-official fa-lg"></i> acebook
-  </a>
-
 	<a href="https://br.linkedin.com/pub/éverton-inocêncio/2a/229/795/pt" title="LinkedIn" class="btn btn-sm btn-default color-linkedin">
     <i class="fa fa-linkedin-square fa-lg"></i>
     LinkedIn
@@ -35,25 +31,24 @@ title: 'Éverton Inocêncio'
 
 <br>
 <br>
-<br>
 
 <fieldset>
-  <legend>Projetos</legend>
+  <legend>Projects</legend>
 
   <div class="row">
-    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
       <div class="thumbnail" style="min-height:250px">
-        <a href="https://sabede.us">
-          <img src="/images/projects/sabedeus.png" alt="logo">
+        <a href="https://getlonlat.github.io/site">
+          <img src="/images/projects/getlonlat-angular.png" alt="getLonLat" width="100%">
         </a>
         <div class="caption">
           <h4>
             <a href="https://sabede.us">
-              SabeDeus
+              getLonLat
             </a>
           </h4>
           <p class="text-justify">
-            Descubra onde encontrar suas bebidas preferidas.
+            App utility to get coordinates from a map.
           </p>
         </div>
       </div>
