@@ -1,16 +1,8 @@
 <template>
   <div>
-    <div class="container mt-5 text-center">
-      <Info />
-      <hr>
-      <Projects />
+    <Header />
+    <div class="container">
+      <Info class="mt-5 text-center" />
     </div>
   </div>
 </template>
-
-<script>
-export default {}
-</script>
-
-<style>
-</style>
