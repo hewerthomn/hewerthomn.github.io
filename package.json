@@ -14,13 +14,16 @@
     "@nuxt/content": "^1.5.0",
     "bootstrap": "^4.5.0",
     "bootstrap-vue": "^2.15.0",
-    "nuxt": "^2.12.2"
+    "nuxt": "^2.15.8"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^3.1.0",
     "@nuxtjs/eslint-module": "^2.0.0",
     "babel-eslint": "^10.1.0",
     "eslint": "^7.5.0",
-    "eslint-plugin-nuxt": "^1.0.0"
+    "eslint-plugin-nuxt": "^1.0.0",
+    "parse-path": ">=5.0.0",
+    "nth-check": ">=2.0.1",
+    "glob-parent": ">=5.1.2"
   }
 }
