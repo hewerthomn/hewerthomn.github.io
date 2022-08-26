@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="row">
-      <div class="col text-left">
+      <div class="col-md-12 col-lg-6 text-left">
         <h4>WELCOME. I AM</h4>
         <h2 class="display-4">
           Éverton Inocêncio
@@ -24,7 +24,7 @@
           GitHub
         </a>
       </div>
-      <div class="col">
+      <div class="col-10 col-md-8 col-lg-6">
         <img
           src="avatar.png"
           alt=""
