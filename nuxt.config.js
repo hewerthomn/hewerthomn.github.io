@@ -30,7 +30,7 @@ export default {
     ],
     script: [
       {
-        src: "https://www.googletagmanager.com/gtag/js?id=G-329035419",
+        src: "https://www.googletagmanager.com/gtag/js?id=G-N71B9TETZQ",
         async: true,
       },
       {
