@@ -22,8 +22,8 @@
     "babel-eslint": "^10.1.0",
     "eslint": "^7.5.0",
     "eslint-plugin-nuxt": "^1.0.0",
-    "parse-path": ">=5.0.0",
+    "glob-parent": ">=5.1.2",
     "nth-check": ">=2.0.1",
-    "glob-parent": ">=5.1.2"
+    "parse-path": ">=5.0.0"
   }
 }
