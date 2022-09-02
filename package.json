@@ -18,7 +18,10 @@
     "nuxt-edge": "latest",
     "vue": "^2.6.14",
     "vue-template-compiler": "^2.6.14",
-    "webpack": "^4.46.0"
+    "webpack": "^4.46.0",
+    "parse-path": ">=5.0.0",
+    "nth-check": ">=2.0.1",
+    "glob-parent": ">=5.1.2"
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.16.3",
