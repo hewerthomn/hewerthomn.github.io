@@ -1,24 +1,21 @@
 {
-  "extends": "./.nuxt/tsconfig.json",
   "compilerOptions": {
-    "esModuleInterop": false,
-    "allowSyntheticDefaultImports": true,
-    "skipLibCheck": true,
-    "target": "ESNext",
+    "target": "ES2018",
     "module": "ESNext",
     "moduleResolution": "Node",
-    "strict": false,
+    "lib": ["ESNext", "ESNext.AsyncIterable", "DOM"],
+    "esModuleInterop": true,
     "allowJs": true,
-    "noUnusedLocals": true,
-    "resolveJsonModule": true,
-    "types": [
-      "node"
-    ],
-    "paths": {}
+    "sourceMap": true,
+    "strict": true,
+    "noEmit": true,
+    "experimentalDecorators": true,
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["./*"],
+      "@/*": ["./*"]
+    },
+    "types": ["@nuxt/types", "@types/node"]
   },
-  "exclude": [
-    "**/*/dist/*",
-    "**/.nuxt/**",
-    "**/nuxt.d.ts"
-  ]
+  "exclude": ["node_modules", ".nuxt", "dist"]
 }

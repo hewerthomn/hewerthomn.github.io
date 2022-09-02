@@ -8,75 +8,70 @@ export default defineNuxtConfig({
   target: 'static',
 
   router: {
-    base: '/'
+    base: '/',
   },
 
   /*
-  ** Headers of the page
-  ** See https://nuxtjs.org/api/configuration-head
-  */
+   ** Headers of the page
+   ** See https://nuxtjs.org/api/configuration-head
+   */
   head: {
     title: 'Éverton Inocêncio | hewerthomn.com',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'My personal page' }
+      { hid: 'description', name: 'description', content: 'My personal page' },
     ],
-    link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ],
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
     script: [
       {
-        src: "https://www.googletagmanager.com/gtag/js?id=G-N71B9TETZQ",
+        src: 'https://www.googletagmanager.com/gtag/js?id=G-N71B9TETZQ',
         async: true,
       },
       {
-        src: "ga.js",
-      }
-    ]
+        src: 'ga.js',
+      },
+    ],
   },
   /*
-  ** Global CSS
-  */
-  css: [
-    '~/css/bootstrap.min.css',
-    '~/css/styles.css'
-  ],
+   ** Global CSS
+   */
+  css: ['~/css/bootstrap.min.css', '~/css/styles.css'],
 
   /*
-  ** Plugins to load before mounting the App
-  ** https://nuxtjs.org/guide/plugins
-  */
+   ** Plugins to load before mounting the App
+   ** https://nuxtjs.org/guide/plugins
+   */
   plugins: [],
 
   /*
-  ** Auto import components
-  ** See https://nuxtjs.org/api/configuration-components
-  */
+   ** Auto import components
+   ** See https://nuxtjs.org/api/configuration-components
+   */
   components: true,
 
   /*
-  ** Nuxt.js dev-modules
-  */
+   ** Nuxt.js dev-modules
+   */
   buildModules: [
     // Doc: https://github.com/nuxt-community/eslint-module
-    '@nuxtjs/eslint-module'
+    '@nuxtjs/eslint-module',
   ],
 
   /*
-  ** Nuxt.js modules
-  */
+   ** Nuxt.js modules
+   */
   modules: [
     // https://go.nuxtjs.dev/bootstrap
-    'bootstrap-vue/nuxt'
+    'bootstrap-vue/nuxt',
   ],
 
   /*
-  ** See https://nuxtjs.org/api/configuration-build/
-  */
+   ** See https://nuxtjs.org/api/configuration-build/
+   */
   build: {
     babel: {
-      compact: true
-    }
-  }
+      compact: true,
+    },
+  },
 })
