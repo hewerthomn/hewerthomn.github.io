@@ -6,7 +6,7 @@
       </a>
       <span class="navbar-nav mr-auto"> &nbsp; </span>
       <div class="my-2 my-lg-0">
-        <Projects />
+        <MyProjects />
       </div>
     </div>
   </nav>
