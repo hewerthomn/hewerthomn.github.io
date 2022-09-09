@@ -1,8 +1,8 @@
 <template>
   <div>
-    <Header />
+    <AppHeader />
     <div class="container-fluid">
-      <Info class="mt-5 text-center" />
+      <AppInfo class="mt-5 text-center" />
     </div>
   </div>
 </template>
