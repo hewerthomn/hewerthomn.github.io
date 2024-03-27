@@ -1,0 +1,13 @@
+[br]
+weight = 1
+title = "Meu blog"
+languageName = "BR"
+languageCode = 'pt-BR'
+contentDir = "content/br"
+
+[en]
+weight = 2
+title = "My blog"
+languageName = "EN"
+languageCode = 'en-US'
+contentDir = "content/en"

@@ -1,0 +1,14 @@
+baseURL = 'https://hewerthomn.com/'
+languageCode = 'br'
+defaultContentLanguage = 'br'
+author = 'Éverton Inocêncio'
+
+theme = 'anatole'
+publishDir = 'dist'
+
+summarylength = 10
+enableEmoji = true
+enableRobotsTXT = true
+
+# Enable Disqus
+# disqusShortname = "hewerthomn"

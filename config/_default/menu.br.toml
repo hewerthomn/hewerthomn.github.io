@@ -1,0 +1,29 @@
+[[main]]
+name = "Início"
+weight = 100
+identifier = "home"
+url = "/"
+
+[[main]]
+name = "Blog"
+weight = 200
+identifier = "posts"
+url = "/post/"
+
+[[main]]
+name = "Portfolio"
+weight = 300
+identifier = "portfolio"
+url = "/portfolio/"
+
+[[main]]
+name = "Sobre"
+weight = 400
+identifier = "about"
+url = "/about/"
+
+[[main]]
+  name = "Contato"
+  weight = 500
+  identifier = "contact"
+  url = "/contact/"
