@@ -1,5 +1,5 @@
 ---
-title: 'Portfolio'
+title: 'Portfólio'
+description: 'Bem vindo ao meu portfólio.'
 draft: false
-description: 'Welcome to my Portfolio!'
 ---

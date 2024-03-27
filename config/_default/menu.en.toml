@@ -1,8 +1,14 @@
 [[main]]
-name = "Projects"
+name = "Home"
+weight = 100
+identifier = "home"
+url = "/"
+
+[[main]]
+name = "Blog"
 weight = 200
-identifier = "projects"
-url = "/projects/"
+identifier = "posts"
+url = "/post/"
 
 [[main]]
 name = "Portfolio"
@@ -15,3 +21,9 @@ name = "About"
 weight = 400
 identifier = "about"
 url = "/about/"
+
+[[main]]
+  name = "Contact"
+  weight = 500
+  identifier = "contact"
+  url = "/contact/"

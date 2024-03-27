@@ -1,11 +1,13 @@
-[en]
-title = "My blog"
-weight = 1
-LanguageName = "EN"
-contentDir = "content/en"
-
 [br]
+weight = 1
 title = "Meu blog"
-contentDir = "content/br" 
+languageName = "BR"
+languageCode = 'pt-BR'
+contentDir = "content/br"
+
+[en]
 weight = 2
-LanguageName = "BR"
+title = "My blog"
+languageName = "EN"
+languageCode = 'en-US'
+contentDir = "content/en"
