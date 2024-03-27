@@ -2,16 +2,16 @@
 name = "Projetos"
 weight = 200
 identifier = "projects"
-url = "/br/projects/"
+url = "/projetos/"
 
 [[main]]
 name = "Portfolio"
 weight = 300
 identifier = "portfolio"
-url = "/br/portfolio/"
+url = "/portfolio/"
 
 [[main]]
 name = "Sobre"
 weight = 400
 identifier = "about"
-url = "/br/about/"
+url = "/sobre/"

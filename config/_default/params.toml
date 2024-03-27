@@ -38,7 +38,7 @@ reversepagetitle = true # When set to 'true', the Window Title will be reversed 
 [[socialIcons]]
 icon = "fab fa-github"
 title = "GitHub"
-url = "https://github.com/lxndrblz/anatole/"
+url = "https://github.com/hewerthomn/"
 
 [[socialIcons]]
 icon = "fab fa-linkedin"
@@ -48,4 +48,4 @@ url = "https://de.linkedin.com/"
 [[socialIcons]]
 icon = "fab fa-instagram"
 title = "instagram"
-url = "https://www.instagram.com/"
+url = "https://www.instagram.com/hewerthomn"
