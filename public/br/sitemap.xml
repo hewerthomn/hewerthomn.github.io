@@ -2,79 +2,79 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/br/</loc>
+    <loc>https://hewerthomn.com/br/</loc>
     <lastmod>2024-03-26T17:59:28-04:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/"
+                href="https://hewerthomn.com/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="br"
-                href="http://localhost:1313/br/"
+                href="https://hewerthomn.com/br/"
                 />
   </url><url>
-    <loc>http://localhost:1313/br/about/</loc>
+    <loc>https://hewerthomn.com/br/about/</loc>
     <lastmod>2024-03-26T17:59:28-04:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/about/"
+                href="https://hewerthomn.com/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="br"
-                href="http://localhost:1313/br/about/"
+                href="https://hewerthomn.com/br/about/"
                 />
   </url><url>
-    <loc>http://localhost:1313/br/projects/</loc>
+    <loc>https://hewerthomn.com/br/projects/</loc>
     <lastmod>2024-03-26T17:56:01-04:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/projects/"
+                href="https://hewerthomn.com/projects/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="br"
-                href="http://localhost:1313/br/projects/"
+                href="https://hewerthomn.com/br/projects/"
                 />
   </url><url>
-    <loc>http://localhost:1313/br/categories/</loc>
+    <loc>https://hewerthomn.com/br/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/categories/"
+                href="https://hewerthomn.com/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="br"
-                href="http://localhost:1313/br/categories/"
+                href="https://hewerthomn.com/br/categories/"
                 />
   </url><url>
-    <loc>http://localhost:1313/br/portfolio/</loc>
+    <loc>https://hewerthomn.com/br/portfolio/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/portfolio/"
+                href="https://hewerthomn.com/portfolio/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="br"
-                href="http://localhost:1313/br/portfolio/"
+                href="https://hewerthomn.com/br/portfolio/"
                 />
   </url><url>
-    <loc>http://localhost:1313/br/tags/</loc>
+    <loc>https://hewerthomn.com/br/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/tags/"
+                href="https://hewerthomn.com/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="br"
-                href="http://localhost:1313/br/tags/"
+                href="https://hewerthomn.com/br/tags/"
                 />
   </url>
 </urlset>

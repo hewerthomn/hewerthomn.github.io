@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Meu blog</title>
-    <link>http://localhost:1313/br/</link>
+    <link>https://hewerthomn.com/br/</link>
     <description>Recent content on Meu blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>br</language>
-    <lastBuildDate>Tue, 26 Mar 2024 17:59:28 -0400</lastBuildDate><atom:link href="http://localhost:1313/br/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 26 Mar 2024 17:59:28 -0400</lastBuildDate><atom:link href="https://hewerthomn.com/br/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Sobre</title>
-      <link>http://localhost:1313/br/about/</link>
+      <link>https://hewerthomn.com/br/about/</link>
       <pubDate>Tue, 26 Mar 2024 17:59:28 -0400</pubDate>
       
-      <guid>http://localhost:1313/br/about/</guid>
+      <guid>https://hewerthomn.com/br/about/</guid>
       
         <description></description>
       
@@ -20,10 +20,10 @@
     
     <item>
       <title>Projetos</title>
-      <link>http://localhost:1313/br/projects/</link>
+      <link>https://hewerthomn.com/br/projects/</link>
       <pubDate>Tue, 26 Mar 2024 17:56:01 -0400</pubDate>
       
-      <guid>http://localhost:1313/br/projects/</guid>
+      <guid>https://hewerthomn.com/br/projects/</guid>
       
         <description></description>
       
