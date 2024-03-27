@@ -1,0 +1,17 @@
+[[main]]
+name = "Projetos"
+weight = 200
+identifier = "projects"
+url = "/br/projects/"
+
+[[main]]
+name = "Portfolio"
+weight = 300
+identifier = "portfolio"
+url = "/br/portfolio/"
+
+[[main]]
+name = "Sobre"
+weight = 400
+identifier = "about"
+url = "/br/about/"
