@@ -74,4 +74,8 @@ export default defineNuxtConfig({
       compact: true,
     },
   },
+
+  bridge: {
+    nitro: process.env.NODE_ENV === 'production',
+  },
 })

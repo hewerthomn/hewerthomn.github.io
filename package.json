@@ -17,6 +17,7 @@
     "core-js": "^3.19.3",
     "glob-parent": ">=5.1.2",
     "nth-check": ">=2.0.1",
+    "nuxi": "^3.0.0-rc.8",
     "nuxt-edge": "latest",
     "parse-path": ">=5.0.0",
     "vue": "^2.6.14",
@@ -33,7 +34,7 @@
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-nuxt": "^3.1.0",
     "eslint-plugin-vue": "^8.2.0",
-    "nuxt": "^3.4.3",
+    "nuxt": "^3.6.5",
     "prettier": "^2.5.1",
     "std-env": "^3.0.1"
   }
