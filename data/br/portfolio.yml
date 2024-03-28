@@ -5,8 +5,8 @@ portfolioitems:
       - name: getLonLat
         image: '/images/portfolio/getlonlat.png'
         link: https://getlonlat.com/
-        linktext: 'Site do projeto'
-        description: 'getLonLat é um aplicativo web que te ajuda a obter coordenadas no mapa. Simply enter an address or click on the map to get the coordinates in differents formats.'
+        linktext: 'Visitar Site do Projeto'
+        description: 'getLonLat é um app web que te ajuda a obter coordenadas no mapa. Procure pelo endereço ou clique no mapa para obter as coordenadas em diferentes formatos.'
         tags:
           - geo
           - tool
@@ -14,18 +14,19 @@ portfolioitems:
       - name: Snake Duino III
         image: '/images/portfolio/snake-duino-3.png'
         link: https://github.com/hewerthomn/snake-duino-III
-        linktext: 'Code repository'
-        description: 'Inspirado no clássico jogo da cobrinha de celular, feito com um Arduino Uno, um LED Nokia 5110 e um controle de Nintendo 64'
+        linktext: 'Visitar Repositório de Código'
+        description: 'Inspirado no clássico jogo da cobrinha de celular, feito com um Arduino Uno, um display LCD Nokia 5110 e um controle de Nintendo 64'
         tags:
           - arduino
           - game
-      - name: Project 3
-        link: https://gohugo.io/
-        status: 'Finished'
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+      - name: Lero-Lero
+        image: '/images/portfolio/lero-lero.png'
+        link: https://chromewebstore.google.com/detail/adicionar-lero-lero/mbgddfahdjkafkbokdlpkjckidbcgnfk
+        linktext: 'Visitar Chrome Web Store'
+        description: 'Extenção do Chrome para gerar texto aleatório para preencher campos de formulário'
         tags:
-          - Tag 1
-          - Tag 2
+          - extension
+          - chrome
   # portfolio category
   # - title: Research
   #   portfolioitem:
