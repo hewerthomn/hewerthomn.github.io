@@ -30,7 +30,7 @@ params:
   images: ["images/site-feature-image.png"]
 
   contactFormAction: https://formspree.io/f/mleqpjgp
-  #contactFormReCaptcha: your-site-key-here
+  contactFormReCaptcha: 6Lf9AagpAAAAACAXnhqPvZ7l-tk6XlIFNJ7MX2pu
 
   gtagId: G-N71B9TETZQ
 
@@ -42,7 +42,7 @@ params:
 
   # When set to 'true', the Window Title will be reversed to 'Title | Author' instead of the default 'Author | Title'
   reversepagetitle: true
-  hidesidebar: false
+  hidesidebar: true
 
   utterances:
     repo: hewerthomn/hewerthomn.github.io
