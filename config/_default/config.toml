@@ -1,7 +1,8 @@
 baseURL = 'https://hewerthomn.com/'
+author = 'Éverton Inocêncio'
+
 languageCode = 'br'
 defaultContentLanguage = 'br'
-author = 'Éverton Inocêncio'
 
 theme = 'anatole'
 publishDir = 'dist'

@@ -1,28 +1,24 @@
 portfolioitems:
   # portfolio category
-  - title: Coding Projects
+  - title: Projetos de códigos
     portfolioitem:
       - name: getLonLat
         image: '/images/portfolio/getlonlat.png'
         link: https://getlonlat.com/
-        linktext: 'Visit project website'
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+        linktext: 'Site do projeto'
+        description: 'getLonLat é um aplicativo web que te ajuda a obter coordenadas no mapa. Simply enter an address or click on the map to get the coordinates in differents formats.'
         tags:
-          - geotool
-          - personal
-        status: 'Finished'
-        start: '2020'
-        end: '2021'
-        authors:
-          - hewerthomn
-      - name: Project 2
-        image: '/images/portfolio/code.jpg'
-        link: https://gohugo.io/
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
-        status: 'On Hold'
+          - geo
+          - tool
+          - vuejs
+      - name: Snake Duino III
+        image: '/images/portfolio/snake-duino-3.png'
+        link: https://github.com/hewerthomn/snake-duino-III
+        linktext: 'Code repository'
+        description: 'Inspirado no clássico jogo da cobrinha de celular, feito com um Arduino Uno, um LED Nokia 5110 e um controle de Nintendo 64'
         tags:
-          - Tag 1
-          - Tag 2
+          - arduino
+          - game
       - name: Project 3
         link: https://gohugo.io/
         status: 'Finished'

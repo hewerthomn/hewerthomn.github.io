@@ -3,11 +3,21 @@ weight = 1
 title = "Meu blog"
 languageName = "BR"
 languageCode = 'pt-BR'
-contentDir = "content/br"
+
+[br.params]
+description = """
+Desenvolvedor de software
+De Rondônia, Brasil
+"""
 
 [en]
 weight = 2
 title = "My blog"
 languageName = "EN"
 languageCode = 'en-US'
-contentDir = "content/en"
+
+[en.params]
+description = """
+Software developer
+From Rondonia, Brazil
+"""

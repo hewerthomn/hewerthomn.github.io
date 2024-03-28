@@ -11,7 +11,7 @@ identifier = "posts"
 url = "/post/"
 
 [[main]]
-name = "Portfolio"
+name = "Portfólio"
 weight = 300
 identifier = "portfolio"
 url = "/portfolio/"
