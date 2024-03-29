@@ -27,6 +27,14 @@ portfolioitems:
         tags:
           - extension
           - chrome
+      - name: Wario Land com Unity
+        image: /images/portfolio/wario-land-unity.png
+        link: https://github.com/hewerthomn/wario-land-3-unity
+        linktext: 'Visitar Repositório de Código'
+        description: 'Projeto com fins de aprendizado com Unity 3D que tenta criar a primeira fase do Wario Land 3 do Game Boy Color. Tem até uma versão "jogável" :joy: https://hewerthomn.com/wario-land-3-unity/'
+        tags:
+          - unity
+          - game
   # portfolio category
   # - title: Research
   #   portfolioitem:
