@@ -34,6 +34,23 @@ params:
 
   gtagId: G-N71B9TETZQ
 
+  socialIcons:
+    - title: GitHub
+      icon: 'fa-brands fa-github'
+      url: 'https://github.com/hewerthomn/'
+
+    - title: LinkedIn
+      icon: 'fa-brands fa-linkedin'
+      url: 'https://www.linkedin.com/in/everton-inocencio/'
+
+    - title: Instagram
+      icon: 'fa-brands fa-instagram'
+      url: 'https://www.instagram.com/hewerthomn'
+
+    - title: Vimeo
+      icon: 'fa-brands fa-vimeo'
+      url: https://www.vimeo.com/hewerthomn
+
   # Google Fonts
   #googleFonts: ["Indie+Flower", "Roboto:ital,wght@0,100;0,400;0,700;1,400"]
 
@@ -44,10 +61,10 @@ params:
   reversepagetitle: true
   hidesidebar: false
 
-  utterances:
-    repo: hewerthomn/hewerthomn.github.io
-    issueTerm: pathname
-    theme: preferred-color-scheme
+  # utterances:
+  #   repo: hewerthomn/hewerthomn.github.io
+  #   issueTerm: pathname
+  #   theme: preferred-color-scheme
 
 ## Enable Disqus
 # disqusShortname: hewerthomn
