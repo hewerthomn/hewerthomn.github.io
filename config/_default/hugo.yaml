@@ -78,7 +78,9 @@ params:
   #   theme: preferred-color-scheme
 
 ## Enable Disqus
-disqusShortname: hewerthomn
+services:
+  disqus:
+    shortname: hewerthomn
 
 languages:
 
