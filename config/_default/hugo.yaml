@@ -4,6 +4,7 @@ languageCode: br
 defaultContentLanguage: br
 defaultContentLanguageInSubdir: false
 enableMissingTranslationPlaceholders: true
+titleCaseStyle: none
 
 theme: anatole
 publishDir: dist
@@ -13,6 +14,16 @@ publishDir: dist
 enableEmoji: true
 enableRobotsTXT: true
 watch: true
+
+# Syntax highlighting
+pygmentsUseClasses: true   
+pygmentsCodeFences: true
+pygmentsCodefencesGuessSyntax: true
+
+taxonomies:
+  category: categories
+  series: series
+  tag: tags
 
 params:
   title: 'Éverton Inocêncio'
@@ -67,7 +78,7 @@ params:
   #   theme: preferred-color-scheme
 
 ## Enable Disqus
-# disqusShortname: hewerthomn
+disqusShortname: hewerthomn
 
 languages:
 
