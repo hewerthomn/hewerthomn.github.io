@@ -1,7 +1,7 @@
 ---
-title: Gerador de Lero-Lero
+title: Lero-Lero no Chrome
 date: 2024-04-01
-draft: true
+draft: false
 images: ["images/lero-lero.png"]
 thumbnail: "images/thumbnail/lero-lero.png"
 categories: ['Development']
