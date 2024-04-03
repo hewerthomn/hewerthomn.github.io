@@ -15,7 +15,7 @@ portfolioitems:
   - title: Projetos de códigos
     portfolioitem:
       - name: Snake Duino III
-        image: '/images/portfolio/snake-duino-3.png'
+        image: '/images/portfolio/snake-duino-3.jpg'
         link: https://github.com/hewerthomn/snake-duino-III
         linktext: 'Visitar Repositório de Código'
         description: 'Inspirado no clássico jogo da cobrinha de celular, feito com um Arduino Uno, um display LCD Nokia 5110 e um controle de Nintendo 64'
