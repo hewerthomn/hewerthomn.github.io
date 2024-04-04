@@ -14,6 +14,8 @@ criar uma extensão para o Google Chrome.
 
 Qual a finalidade? Gerar lero-lero. :joy:
 
+<!--more-->
+
 O lero-lero é um texto aleatório que não diz nada e é utilizado para "encher linguiça" e tem até
 [artigos científicos publicados](https://www.dche.ufscar.br/news/120-artigos-cientificos-foram-criados-por-gerador-de-lero-lero-e-ninguem-percebeu) 
 com isso (e ninguém percebeu).
