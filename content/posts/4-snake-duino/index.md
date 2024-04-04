@@ -10,7 +10,7 @@ tags: ['arduino', 'esp32', 'game', 'nokia 5110']
 ---
 
 Quando comecei a estudar Arduino em meados de 2012, um dos componentes que comprei foi o Display LCD do Nokia 5110.
-Isso mesmo, aqueles tijolão mesmo. :smile:
+Isso mesmo, daqueles Nokia tijolão. :smile:
 
 Então fui atrás do jogo da cobrinha para o Arduino e esse foi um dos projetos mais divertidos de se fazer.
 
