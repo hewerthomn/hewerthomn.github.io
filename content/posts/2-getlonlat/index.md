@@ -15,6 +15,8 @@ pode ser desejável que a localização esteja relacionada ao contexto aplicado,
 
 Nesse contexto que surgiu minha necessidade.
 
+<!--more-->
+
 Na época eu estava trabalhando no projeto UdiBUs e quando precisava inserir coordenadas para poder testar os registros de pontos ou rotas das linhas, 
 sempre era demorado e complicado copiar cada valor das coordenadas e depois colar nos respectivos destinos.
 E isso sempre me causava confusão pois Longitude é o eixo X e Latitude o eixo Y e muitas vezes acabava confundindo e trocando os valores ao inserir,

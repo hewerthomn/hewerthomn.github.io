@@ -25,6 +25,11 @@ taxonomies:
   series: series
   tag: tags
 
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
 params:
   title: 'Éverton Inocêncio'
   author: 'Éverton Inocêncio'
@@ -33,7 +38,7 @@ params:
   favicon: 'favicons/'
   doNotLoadAnimations: false
   readMore: true
-  fullPostContent: true
+  fullPostContent: false
 
   # postSectionName: blog
 
@@ -72,15 +77,15 @@ params:
   reversepagetitle: true
   hidesidebar: false
 
-  # utterances:
-  #   repo: hewerthomn/hewerthomn.github.io
-  #   issueTerm: pathname
-  #   theme: preferred-color-scheme
+  utterances:
+    repo: hewerthomn/hewerthomn.github.io
+    issueTerm: pathname
+    theme: preferred-color-scheme
 
 ## Enable Disqus
-services:
-  disqus:
-    shortname: hewerthomn
+# services:
+#   disqus:
+#     shortname: hewerthomn
 
 languages:
 
