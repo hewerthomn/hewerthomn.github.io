@@ -1,5 +1,5 @@
 ---
-title: Clássico jogo da cobrinha no Arduino
+title: Jogo da cobrinha no Arduino
 slug: snake-duino-jogo-cobrinha-arduino
 date: 2024-04-02
 draft: true
@@ -10,7 +10,7 @@ tags: ['arduino', 'game']
 ---
 
 Inspirado no clássico jogo da cobrinha dos antigos celulares Nokia,
-esse foi um dos projetos mais divertido que fiz.
+esse foi um dos projetos que mais me diverti fazendo.
 
 Quando comecei a estudar Arduino, um dos componentes que comprei foi o Display LCD do Nokia 5110, aquele Nokia tijolão mesmo.
 

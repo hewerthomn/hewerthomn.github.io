@@ -1,5 +1,6 @@
 ---
 title: Lero-Lero no Chrome
+slug: lero-lero-extensao-chrome
 date: 2024-04-01
 draft: false
 images: ["images/lero-lero.png"]

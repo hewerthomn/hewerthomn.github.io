@@ -1,5 +1,5 @@
 ---
-slug: getlonlat
+slug: getlonlat-obtendo-coordenadas-formatadas
 title: getLonLat - Obtendo Coordenadas Formatadas
 date: 2024-03-29
 draft: false
