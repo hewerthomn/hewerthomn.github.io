@@ -6,7 +6,7 @@ draft: false
 images: ["images/post-cover.png"]
 thumbnail: "images/thumbnail/getlonlat.png"
 categories: ['Development']
-tags: ['geo', 'web', 'angular', 'vuejs', 'maps']
+tags: ['geo', 'web', 'angular', 'vuejs', 'maps', 'leaflet']
 ---
 
 Durante o desenvolvimento de aplicações que utilizam dados espaciais, é necessário utilizar coordenadas válidas.
@@ -35,28 +35,34 @@ Dada essa natureza simples do app, o getLonLat acabou tornando-se o meu "ToDo Ap
 que é o tipo de aplicativo simples que geralmente implementamos quando estamos aprendendo alguma ferramenta pra criar apps web,
 vide [TodoMVC](https://todomvc.com/).
 
+### getLonLat v1
 
 A primeira versão foi desenvolvida utilizando o *finado* framework [AngularJS](https://angularjs.org/) e
 utilizava a biblioteca de maps OpenLayers e como mapa base o OpenStreetMap, Google Maps e até o Bing Maps :joy:.
 
 ![Primeira versão - AngularJS](images/angularjs.png)
 
+### getLonLat v2
+
 Também teve uma versão quando saiu o sucessor espiritural do AngularJS, o [Angular 2](https://angular.io/).
 Essa versão era simplificava e contava apenas com o mapa base do Google Maps.
 
 ![Segunda versão - Angular](images/angular.png)
 
+### getLonLat Mobile
+
 Com o Angular 2, também saiu uma nova versão do [Framework Ionic](https://ionicframework.com/) para desenvolvimento de apps híbrido.
 Assim você desenvolvia no navegador e depois executava como um app mobile, funcionava para alguns casos.
 E é claro que eu iria testar justamente com o getLonLat, né :smile:
 
-![Terceira versão - Ionic](images/android.png)
+![Versão Mobile - Ionic](images/android.png)
 
+### getLonLat v3
 
 E finalmente a versão atual. Desenvolvida utilizando [VueJS](https://vuejs.org/), meu framework preferido para SPA,
 e utilizando, finalmente, a biblioteca de maps [Leaflet](https://leafletjs.com/) com mapa base do Google Maps (mas pretendendo alterar para o [OpenStreetMap](https://www.openstreetmap.org/)).
 
-![Versão atual - VueJS](images/screenshot.png)
+![Versão 3 - VueJS](images/screenshot.png)
 
 
 Acesse o https://getlonlat.com
