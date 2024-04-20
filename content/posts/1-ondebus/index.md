@@ -1,7 +1,15 @@
 ---
 title: OndeBus
-date: 2024-03-01
+slug: ondebus
+date: 2024-04-20
 draft: true
+images: ["images/ondebus.jpg"]
+thumbnail: "images/thumbnail/ondebus.jpg"
+categories: ['Development']
+tags: ['php', 'geo']
 ---
 
-Texto em portugues
+A InfoParty
+
+...
+
