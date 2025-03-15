@@ -7,6 +7,7 @@ images: ["images/destruino.jpg"]
 thumbnail: "images/thumbnail/destruino.jpg"
 categories: ['Development']
 tags: ['arduino', 'robô', 'infoparty']
+
 ---
 
 Em meados de 2016, o Governo de Rondônia realizou o evento InfoParty 2016 na cidade de Porto Velho.
@@ -76,5 +77,3 @@ largou o kit Lego dele e veio com sangue nos olhos com um robô Arduino assassin
 ![Prata para Equipe Vikings e o Renan](7a8e8918aad7aaedc93845ba2af2fb61.jpg)
 
 Equipe Vikings e o Renan que apareceu alí na hora e ainda ganhou medalha. :joy:
-
-{{ template "_internal/disqus.html" . }}

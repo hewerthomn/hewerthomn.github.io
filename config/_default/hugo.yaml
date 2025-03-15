@@ -1,5 +1,6 @@
 baseURL: "https://hewerthomn.com"
 disqusShortname: hewerthomn
+DisqusShortname: hewerthomn
 languageCode: br
 defaultContentLanguage: br
 defaultContentLanguageInSubdir: false
@@ -40,7 +41,7 @@ params:
   readMore: true
   fullPostContent: false
 
-  # postSectionName: blog
+  postSectionName: blog
 
   mainSections: ['posts']
   images: ["images/site-feature-image.png"]
