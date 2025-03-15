@@ -17,6 +17,6 @@ criar uma extensão para o Google Chrome.&lt;/p>
 &lt;p>Qual a finalidade? Gerar lero-lero. &amp;#x1f602;&lt;/p></description></item><item><title>getLonLat - Obtendo Coordenadas Formatadas</title><link>https://hewerthomn.com/posts/getlonlat-obtendo-coordenadas-formatadas/</link><pubDate>Fri, 29 Mar 2024 00:00:00 +0000</pubDate><guid>https://hewerthomn.com/posts/getlonlat-obtendo-coordenadas-formatadas/</guid><description>&lt;p>Durante o desenvolvimento de aplicações que utilizam dados espaciais, é necessário utilizar coordenadas válidas.
 Ou seja, além dos valores de longitude estar dentro da faixa de -180 a 180 graus e -90 e 90 graus para latitude,
 pode ser desejável que a localização esteja relacionada ao contexto aplicado, assim não podendo ser qualquer localização.&lt;/p>
-&lt;p>Nesse contexto que surgiu minha necessidade.&lt;/p></description></item><item><title>Hello World</title><link>https://hewerthomn.com/posts/0-hello-world/</link><pubDate>Thu, 28 Mar 2024 00:00:00 +0000</pubDate><guid>https://hewerthomn.com/posts/0-hello-world/</guid><description>Olá Mundo!
-Esse é o primeiro post de inauguração desse blog.
-🎉</description></item></channel></rss>
+&lt;p>Nesse contexto que surgiu minha necessidade.&lt;/p></description></item><item><title>Hello World</title><link>https://hewerthomn.com/posts/0-hello-world/</link><pubDate>Thu, 28 Mar 2024 00:00:00 +0000</pubDate><guid>https://hewerthomn.com/posts/0-hello-world/</guid><description>&lt;p>Olá Mundo!&lt;/p>
+&lt;p>Esse é o primeiro post de inauguração desse blog.&lt;/p>
+&lt;p>🎉&lt;/p></description></item></channel></rss>
