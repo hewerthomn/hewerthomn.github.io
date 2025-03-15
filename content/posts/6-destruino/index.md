@@ -76,3 +76,5 @@ largou o kit Lego dele e veio com sangue nos olhos com um robô Arduino assassin
 ![Prata para Equipe Vikings e o Renan](7a8e8918aad7aaedc93845ba2af2fb61.jpg)
 
 Equipe Vikings e o Renan que apareceu alí na hora e ainda ganhou medalha. :joy:
+
+{{ template "_internal/disqus.html" . }}

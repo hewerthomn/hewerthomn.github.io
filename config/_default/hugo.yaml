@@ -1,4 +1,4 @@
-baseURL: https://hewerthomn.com
+baseURL: "https://hewerthomn.com"
 disqusShortname: hewerthomn
 languageCode: br
 defaultContentLanguage: br
@@ -85,7 +85,7 @@ params:
 ## Enable Disqus
 services:
   disqus:
-    shortname: hewerthomn
+    shortname: "hewerthomn"
 
 languages:
 
