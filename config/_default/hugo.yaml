@@ -1,5 +1,5 @@
 baseURL: https://hewerthomn.com
-
+disqusShortname: hewerthomn
 languageCode: br
 defaultContentLanguage: br
 defaultContentLanguageInSubdir: false
@@ -68,7 +68,7 @@ params:
       url: https://www.vimeo.com/hewerthomn
 
   # Google Fonts
-  #googleFonts: ["Indie+Flower", "Roboto:ital,wght@0,100;0,400;0,700;1,400"]
+  googleFonts: ["Indie+Flower", "Roboto:ital,wght@0,100;0,400;0,700;1,400"]
 
   # Google Site Verify
   #googleSiteVerify: 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789'
@@ -83,9 +83,9 @@ params:
     theme: preferred-color-scheme
 
 ## Enable Disqus
-# services:
-#   disqus:
-#     shortname: hewerthomn
+services:
+  disqus:
+    shortname: hewerthomn
 
 languages:
 
