@@ -78,10 +78,10 @@ params:
   reversepagetitle: true
   hidesidebar: false
 
-  utterances:
-    repo: hewerthomn/hewerthomn.github.io
-    issueTerm: pathname
-    theme: preferred-color-scheme
+  # utterances:
+  #   repo: hewerthomn/hewerthomn.github.io
+  #   issueTerm: pathname
+  #   theme: preferred-color-scheme
 
 ## Enable Disqus
 services:
