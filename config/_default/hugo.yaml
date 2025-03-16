@@ -41,7 +41,7 @@ params:
   readMore: true
   fullPostContent: false
 
-  postSectionName: blog
+  postSectionName: posts
 
   mainSections: ['posts']
   images: ["images/site-feature-image.png"]
