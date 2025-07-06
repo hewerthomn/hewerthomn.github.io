@@ -49,6 +49,8 @@ Desde sua implementação, o Eolis tem auxiliado o TJRO a alcançar as metas do 
 ## Eolis como Pedra Angular da Eficiência e Excelência no TJRO
 Em conclusão, o Eolis é uma plataforma unificada e tecnologicamente avançada que suporta diversas funções cruciais no TJRO. Desde sua concepção em 2017 até sua evolução contínua, o sistema se tornou indispensável para aprimorar a eficiência, a transparência e a tomada de decisões baseada em dados. Sua arquitetura híbrida OLAP, a migração para o Apache Airflow e o uso de tecnologias modernas demonstram um compromisso com a inovação. Os diversos módulos atendem a uma vasta gama de necessidades da administração judicial. A contribuição do Eolis para o alcance das metas do CNJ e para a obtenção do Prêmio CNJ de Qualidade reforça sua importância estratégica para o TJRO, sendo um exemplo de como a tecnologia pode transformar o setor público. A trajetória do Eolis demonstra que iniciativa e colaboração podem levar a melhorias significativas no judiciário, servindo de modelo para outros tribunais.
 
+https://www.youtube.com/watch?v=8CkHZ6OPJ3c
+
 Referências citadas
 1. Entenda porque a informação é o ativo mais importante de uma organização - Servidor - Poder Judiciário de Santa Catarina, acessado em março 16, 2025, https://www.tjsc.jus.br/web/servidor/dicas-de-ti/-/asset_publisher/0rjJEBzj2Oes/content/entenda-porque-a-informacao-e-o-ativo-mais-importante-de-uma-organizacao
 2. Artigo aborda a gestão de dados no fortalecimento do CNJ, acessado em março 16, 2025, https://www.cnj.jus.br/artigo-aborda-a-gestao-de-dados-no-fortalecimento-do-cnj/
