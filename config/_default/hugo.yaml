@@ -1,6 +1,7 @@
 baseURL: "https://hewerthomn.com"
 disqusShortname: hewerthomn
 DisqusShortname: hewerthomn
+
 languageCode: br
 defaultContentLanguage: br
 defaultContentLanguageInSubdir: false

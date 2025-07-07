@@ -6,12 +6,15 @@ draft: true
 images: ["images/wario-land-3.jpg"]
 thumbnail: "images/thumbnail/wario-land-3.jpg"
 categories: ['Games', 'Hobby']
-tags: ['game'']
+tags: ['game']
 ---
 
 **Wario Land 3: Uma Jornada de Moedinhas e Memórias**
 
 Quem jogou o Game Boy Color sabe como certos jogos ficam marcados na memória, e um dos meus maiores favoritos foi *Wario Land 3*. Não só pela jogabilidade, que combinava exploração e ação, mas por um desafio específico que se tornou uma obsessão para mim: pegar todas as moedas escondidas nas fases para acessar a fase secreta de golf. O problema? Havia uma fase que simplesmente não conseguia completar. Eu passei horas e mais horas tentando encontrar a oitava moeda que me faltava, acreditando que meu cartucho estava com algum bug.
+
+![Wario Land 3](game-cover.jpg)
+
 
 Eu jogava tanto, que cheguei a duvidar da integridade do meu cartucho. Parecia que a moeda estava "quase lá", mas sempre ficava fora do meu alcance. A frustração era tanta que muitas vezes eu pensava em desistir, mas a ideia de um prêmio secreto me motivava a seguir em frente.
 
