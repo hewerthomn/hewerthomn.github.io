@@ -1,28 +1,31 @@
 ---
-title: Wario Land 3
-slug: wario-land-3
-date: 2025-07-06
-draft: true
-images: ["images/wario-land-3.jpg"]
-thumbnail: "images/thumbnail/wario-land-3.jpg"
-categories: ['Games', 'Hobby']
-tags: ['game']
----
+title: "Wario Land 3"
+date: 2025-07-13T17:00:00-04:00
+description: "Memórias de infância, pilhas roubadas e a busca por uma moeda perdida em Wario Land 3."
+tags: ["wario", "game boy", "retro", "infancia", "nostalgia"]
+cover: "/images/wario-land-3-cover.png"
+---------------------------------------
 
-**Wario Land 3: Uma Jornada de Moedinhas e Memórias**
+Lá pelos idos de 2002, quando **“Misunderstood” do Robbie Williams** ainda tocava com frequência nas rádios no final da tarde — daquele tipo de música que embalava os comerciais de novela e os momentos ociosos de domingo — eu estava em outra sintonia: a do meu **Game Boy Color teal**, bem ali no meio da cama dos meus pais, jogando **Wario Land 3** sem parar. Literalmente. Só parava quando as pilhas acabavam.
 
-Quem jogou o Game Boy Color sabe como certos jogos ficam marcados na memória, e um dos meus maiores favoritos foi *Wario Land 3*. Não só pela jogabilidade, que combinava exploração e ação, mas por um desafio específico que se tornou uma obsessão para mim: pegar todas as moedas escondidas nas fases para acessar a fase secreta de golf. O problema? Havia uma fase que simplesmente não conseguia completar. Eu passei horas e mais horas tentando encontrar a oitava moeda que me faltava, acreditando que meu cartucho estava com algum bug.
+E pilhas acabavam muito rápido.
 
-![Wario Land 3](game-cover.jpg)
+Como qualquer criança que não ganhava um pacote de pilhas novo por semana, desenvolvi uma estratégia que se tornaria rotina: roubava as pilhas do controle remoto da TV da sala. Jogava no modo mudo — não por querer ser discreto, mas porque isso fazia as pilhas durarem um pouco mais. O som era luxo. O que importava era progredir. E o Wario, aquele anti-herói desengonçado com sua cara de poucos amigos, me conquistava com cada fase maluca, cada power-up estranho e cada segredo bem escondido.
 
+Naquela época, entre uma jogatina de **Wario Land 3** e outra de **Pokémon Blue**, minha infância era uma aventura portátil. Mas Wario era diferente. Eu não estava apenas jogando — estava desvendando. Era como se cada fase tivesse vida própria, e mesmo as que eu revisitava tinham sempre algo novo, uma porta que só abria com uma habilidade específica, uma área que só ficava acessível depois de desbloquear outro estágio. Era uma progressão quase metroidvania, mas com cara de jogo infantil. Aquilo me viciava.
 
-Eu jogava tanto, que cheguei a duvidar da integridade do meu cartucho. Parecia que a moeda estava "quase lá", mas sempre ficava fora do meu alcance. A frustração era tanta que muitas vezes eu pensava em desistir, mas a ideia de um prêmio secreto me motivava a seguir em frente.
+Mas teve **uma fase** — uma bendita fase — que ficou entalada.
 
-E então, anos depois, quando já havia deixado o jogo de lado, me deparei com um vídeo no YouTube. Era de um cara mostrando exatamente como pegar todas as moedas, usando um emulador. Ele estava fazendo exatamente o que eu não conseguira no meu Game Boy: completar aquela fase traiçoeira. Foi aí que eu percebi que meu cartucho não estava bugado. O problema era só a minha falta de habilidade e paciência naquela época. A sensação de saber que, sim, era possível, me fez sentir uma mistura de alívio e decepção ao mesmo tempo.
+Eu tinha coletado quase todas as moedas musicais (as **Music Coins**, uma em cada cor de baú), mas em **uma única fase** eu nunca consegui encontrar a última moeda. Não importava quantas vezes eu revisasse os cantos, experimentasse as transformações do Wario (zumbi, elástico, chamas), simplesmente não aparecia. E por causa dela, eu **nunca consegui liberar a fase bônus de minigolfe** — aquela que todo mundo comentava nas revistas ou nas rodas de colegas que também tinham o jogo. Era como um segredo que só os melhores conseguiam.
 
-Agora, em 2025, a história deu uma reviravolta. Decidi que ia tentar de novo. Desta vez, com um Game Boy Color novinho e um cartucho de *Wario Land 3* legítimo. Não podia mais deixar essa conquista pendente. Em algum lugar, nas memórias dos meus antigos jogos, eu sabia que conseguiria completar aquele desafio. Hoje, com mais experiência e uma abordagem mais paciente, sinto que finalmente será a hora de pegar todas as moedinhas.
+A frustração virou lenda pessoal. Mas ao invés de me afastar do personagem, isso me aproximou ainda mais. Por ter passado tanto tempo nesse mundo meio torto, colorido e cheio de personalidade, o **Wario acabou se tornando meu personagem favorito daquele universo Mario**. Muito mais que o próprio encanador vermelho, que sempre me pareceu previsível. Wario era caótico. Era engraçado. Era eu.
 
-Mas a história não termina aí. Durante os anos que passei estudando a ferramenta Unity para desenvolvimento de jogos, acabei criando um projeto inspirado na primeira fase de *Wario Land 3*. A inspiração veio não só pela nostalgia do jogo, mas também pela complexidade e pelas mecânicas que ele oferecia. Confira o link abaixo para ver o que criei!
+Anos se passaram.
 
-Não importa o tempo que levei ou o quão longe eu tenha ido, a busca pela última moeda se tornou uma história de perseverança e de amor por um dos maiores clássicos do Game Boy Color. E agora, com a minha versão "remasterizada" de *Wario Land 3* em mãos, posso finalmente terminar o que comecei muitos anos atrás. Vai valer a pena!
+Na era do 3DS, quando a Nintendo lançou o **Wario Land 3 na Virtual Console**, eu não pensei duas vezes. Comprei a versão digital e tentei reviver a experiência. Mas mesmo com tela iluminada, save states e conforto moderno, o desafio da moeda perdida persistiu. Era como se o jogo me dissesse: “Você cresceu, mas ainda não está pronto”.
 
+Recentemente, movido por saudade e por uma vontade de encerrar ciclos, comprei um **cartucho original usado** de Wario Land 3 num site retrô. Veio com cheiro de armário antigo e uma etiqueta meio desbotada. Ainda falta o console — um **Game Boy Color de verdade**, talvez teal de novo, talvez transparente como o que eu só via nas mãos dos colegas mais sortudos. Mas o cartucho está ali, parado na estante, me esperando com a mesma calma com que as fases esperavam serem exploradas. E talvez agora eu encontre a moeda.
+
+Ou talvez não. Mas isso pouco importa.
+
+Porque Wario Land 3, pra mim, não é mais só sobre completar fases. É sobre memórias, persistência, aquele sentimento de ter um mundo inteiro dentro de um cartucho de 2 polegadas. É sobre crescer e perceber que algumas moedas a gente passa a vida procurando — e tudo bem não encontrá-las. O que importa é o quanto a gente se diverte tentando.
