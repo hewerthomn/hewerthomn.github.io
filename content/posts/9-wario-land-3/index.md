@@ -2,6 +2,7 @@
 title: "Wario Land 3"
 date: 2025-07-13T17:00:00-04:00
 description: "Memórias de infância, pilhas roubadas e a busca por uma moeda perdida em Wario Land 3."
+draft: true
 tags: ["wario", "game boy", "retro", "infancia", "nostalgia"]
 cover: "/images/wario-land-3-cover.png"
 ---------------------------------------
