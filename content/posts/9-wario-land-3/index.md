@@ -1,10 +1,11 @@
 ---
 title: "Wario Land 3"
-date: 2025-07-13T17:00:00-04:00
-description: "Memórias de infância, pilhas roubadas e a busca por uma moeda perdida em Wario Land 3."
+slug: 'wario-land-3'
+date: 2025-07-13
 draft: true
+images: ["images/wario-land-3.png"]
+thumbnail: "images/thumbnail/wario-land-3.png"
 tags: ["wario", "game boy", "retro", "infancia", "nostalgia"]
-cover: "/images/wario-land-3-cover.png"
 ---------------------------------------
 
 Lá pelos idos de 2002, quando **“Misunderstood” do Robbie Williams** ainda tocava com frequência nas rádios no final da tarde — daquele tipo de música que embalava os comerciais de novela e os momentos ociosos de domingo — eu estava em outra sintonia: a do meu **Game Boy Color teal**, bem ali no meio da cama dos meus pais, jogando **Wario Land 3** sem parar. Literalmente. Só parava quando as pilhas acabavam.
@@ -13,7 +14,10 @@ E pilhas acabavam muito rápido.
 
 Como qualquer criança que não ganhava um pacote de pilhas novo por semana, desenvolvi uma estratégia que se tornaria rotina: roubava as pilhas do controle remoto da TV da sala. Jogava no modo mudo — não por querer ser discreto, mas porque isso fazia as pilhas durarem um pouco mais. O som era luxo. O que importava era progredir. E o Wario, aquele anti-herói desengonçado com sua cara de poucos amigos, me conquistava com cada fase maluca, cada power-up estranho e cada segredo bem escondido.
 
+![Wario Land 3](game-cover.png)
+
 Naquela época, entre uma jogatina de **Wario Land 3** e outra de **Pokémon Blue**, minha infância era uma aventura portátil. Mas Wario era diferente. Eu não estava apenas jogando — estava desvendando. Era como se cada fase tivesse vida própria, e mesmo as que eu revisitava tinham sempre algo novo, uma porta que só abria com uma habilidade específica, uma área que só ficava acessível depois de desbloquear outro estágio. Era uma progressão quase metroidvania, mas com cara de jogo infantil. Aquilo me viciava.
+
 
 Mas teve **uma fase** — uma bendita fase — que ficou entalada.
 
@@ -24,6 +28,12 @@ A frustração virou lenda pessoal. Mas ao invés de me afastar do personagem, i
 Anos se passaram.
 
 Na era do 3DS, quando a Nintendo lançou o **Wario Land 3 na Virtual Console**, eu não pensei duas vezes. Comprei a versão digital e tentei reviver a experiência. Mas mesmo com tela iluminada, save states e conforto moderno, o desafio da moeda perdida persistiu. Era como se o jogo me dissesse: “Você cresceu, mas ainda não está pronto”.
+
+E afim de aprender um pouco sobre a Unity 3D, uma engine para jogos,
+criei um projeto inspirado na primeira fase do Wario Land 3.
+Tem até uma versão “jogável” [aqui](https://hewerthomn.com/wario-land-3-unity/).
+
+![Wario Land no Unity](wario-land-unity.png)
 
 Recentemente, movido por saudade e por uma vontade de encerrar ciclos, comprei um **cartucho original usado** de Wario Land 3 num site retrô. Veio com cheiro de armário antigo e uma etiqueta meio desbotada. Ainda falta o console — um **Game Boy Color de verdade**, talvez teal de novo, talvez transparente como o que eu só via nas mãos dos colegas mais sortudos. Mas o cartucho está ali, parado na estante, me esperando com a mesma calma com que as fases esperavam serem exploradas. E talvez agora eu encontre a moeda.
 
