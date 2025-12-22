@@ -51,14 +51,6 @@ Essa versão era simplificava e contava apenas com o mapa base do Google Maps.
 
 ![Segunda versão - Angular](images/angular.png)
 
-### getLonLat Mobile
-
-Com o Angular 2, também saiu uma nova versão do [Framework Ionic](https://ionicframework.com/) para desenvolvimento de apps híbrido.
-Assim você desenvolvia no navegador e depois executava como um app mobile, funcionava para alguns casos.
-E é claro que eu iria testar justamente com o getLonLat, né :smile:
-
-![Versão Mobile - Ionic](images/android.png)
-
 ### getLonLat v3
 
 E finalmente a versão atual. Desenvolvida utilizando [VueJS](https://vuejs.org/), meu framework preferido para SPA,
@@ -66,5 +58,23 @@ e utilizando, finalmente, a biblioteca de maps [Leaflet](https://leafletjs.com/)
 
 ![Versão 3 - VueJS](images/screenshot.png)
 
+### getLonLat v4 (Mobile)
 
-Acesse o https://getlonlat.com
+Com o Angular 2, também saiu uma nova versão do [Framework Ionic](https://ionicframework.com/) para desenvolvimento de apps híbrido.
+Assim você desenvolvia no navegador e depois executava como um app mobile, funcionava para alguns casos.
+E é claro que eu iria testar justamente com o getLonLat, né :smile:
+
+![Versão Mobile - Ionic](images/android.png)
+
+
+##### Atualização 22/12/2025
+
+### getLonLat v5
+
+Refatorei o app para não utilizar mais Google Maps e migrei o Vue2 para o Vue3 com Nuxt.
+Também foi adicionado opção de escolher os provedores de Tile e Geocoder, todos opções free.
+Agora conta com a opção de Modo Escuro. :D
+
+![Versão 5](images/nuxt.png)
+
+Acesse em https://getlonlat.com
