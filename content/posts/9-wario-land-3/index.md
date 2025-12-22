@@ -2,7 +2,7 @@
 title: "Wario Land 3"
 slug: 'wario-land-3'
 date: 2025-07-13
-draft: true
+draft: false
 images: ["images/wario-land-3.png"]
 thumbnail: "images/thumbnail/wario-land-3.png"
 tags: ["wario", "game boy", "retro", "infancia", "nostalgia"]
@@ -22,6 +22,9 @@ Naquela época, entre uma jogatina de **Wario Land 3** e outra de **Pokémon Blu
 Mas teve **uma fase** — uma bendita fase — que ficou entalada.
 
 Eu tinha coletado quase todas as moedas musicais (as **Music Coins**, uma em cada cor de baú), mas em **uma única fase** eu nunca consegui encontrar a última moeda. Não importava quantas vezes eu revisasse os cantos, experimentasse as transformações do Wario (zumbi, elástico, chamas), simplesmente não aparecia. E por causa dela, eu **nunca consegui liberar a fase bônus de minigolfe** — aquela que todo mundo comentava nas revistas ou nas rodas de colegas que também tinham o jogo. Era como um segredo que só os melhores conseguiam.
+
+![Wario Land 3](wario-land-3-cover.png)
+
 
 A frustração virou lenda pessoal. Mas ao invés de me afastar do personagem, isso me aproximou ainda mais. Por ter passado tanto tempo nesse mundo meio torto, colorido e cheio de personalidade, o **Wario acabou se tornando meu personagem favorito daquele universo Mario**. Muito mais que o próprio encanador vermelho, que sempre me pareceu previsível. Wario era caótico. Era engraçado. Era eu.
 
