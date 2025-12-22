@@ -21,6 +21,7 @@ jobs:
           submodules: recursive
           fetch-depth: 0
 
+      # Dart Sass (necessário para toCSS / SCSS do tema)
       - uses: dw-labs-org/dart-sass-gha@v1
         with:
           version: "1.97.1"
@@ -32,13 +33,12 @@ jobs:
           extended: true
 
       - name: Build
-        run: |
-          hugo --gc --minify
-          hugo env
+        run: hugo --gc --minify
 
       - name: Deploy
         if: github.ref == 'refs/heads/main'
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
           publish_dir: ./public
