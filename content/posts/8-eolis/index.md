@@ -2,7 +2,7 @@
 title: Eolis
 slug: eolis
 date: 2025-03-15
-draft: true
+draft: false
 images: ["images/cover.png"]
 thumbnail: "images/thumbnail/eolis.png"
 categories: ['Development']
