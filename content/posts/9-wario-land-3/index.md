@@ -3,7 +3,7 @@ title: "Wario Land 3"
 slug: 'wario-land-3'
 date: 2025-07-13
 draft: false
-images: ["images/wario-land-3.png"]
+images: ["wario-land-unity.png"]
 thumbnail: "images/thumbnail/wario-land-3.png"
 tags: ["wario", "game boy", "retro", "infancia", "nostalgia"]
 ---------------------------------------

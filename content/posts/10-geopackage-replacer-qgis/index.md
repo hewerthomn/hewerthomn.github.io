@@ -4,6 +4,7 @@ date: 2025-08-21
 description: "Plugin para atualizar rapidamente um .gpkg (ou .zip) usado no projeto, reduzindo a necessidade de fechar e reabrir o QGIS."
 categories: ["Development"]
 tags: ["qgis","plugin","geopackage","gpkg","zip"]
+images: ["icon.png"]
 cover:
   image: "cover.png"
   alt: "Janela do plugin Geopackage Replacer no QGIS mostrando a pré‑visualização de camadas"

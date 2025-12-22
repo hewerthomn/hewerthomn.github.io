@@ -3,7 +3,7 @@ title: Lero-Lero no Chrome
 slug: lero-lero-extensao-chrome
 date: 2024-04-01
 draft: false
-images: ["images/lero-lero.png"]
+images: ["lero-lero.png"]
 thumbnail: "images/thumbnail/lero-lero.png"
 categories: ['Development']
 tags: ['chrome', 'web']

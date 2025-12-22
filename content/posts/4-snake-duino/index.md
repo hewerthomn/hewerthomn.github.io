@@ -3,7 +3,7 @@ title: Jogo da cobrinha no Arduino
 slug: snake-duino-jogo-cobrinha-arduino
 date: 2024-04-04
 draft: false
-images: ["images/snake-duino-3.jpg"]
+images: ["snake-duino-3.jpg"]
 thumbnail: "images/thumbnail/snake-duino-3.jpg"
 categories: ['Development']
 tags: ['arduino', 'esp32', 'game', 'nokia 5110']

@@ -3,7 +3,7 @@ title: Robô Sumô na InfoParty
 slug: robo-sumo-infoparty
 date: 2024-05-08
 draft: false
-images: ["images/destruino.jpg"]
+images: ["IMG_20161108_190542.jpg"]
 thumbnail: "images/thumbnail/destruino.jpg"
 categories: ['Development']
 tags: ['arduino', 'robô', 'infoparty']
