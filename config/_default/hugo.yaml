@@ -2,7 +2,7 @@ baseURL: "https://hewerthomn.com"
 disqusShortname: hewerthomn
 DisqusShortname: hewerthomn
 
-languageCode: br
+locale: pt-BR
 defaultContentLanguage: br
 defaultContentLanguageInSubdir: false
 enableMissingTranslationPlaceholders: true
@@ -94,8 +94,8 @@ languages:
   br:
     weight: 1
     title: Meu Blog
-    languageCode: br
-    languageName: BRASILEIRO
+    locale: pt-BR
+    label: BRASILEIRO
     params:
       description: |
         Geek e escritor de software
@@ -121,8 +121,8 @@ languages:
   # en:
   #   weight: 2
   #   title: My Blog
-  #   languageCode: en
-  #   languageName: ENGLISH
+  #   locale: en-US
+  #   label: ENGLISH
   #   params:
   #     description: |
   #       Software developer
