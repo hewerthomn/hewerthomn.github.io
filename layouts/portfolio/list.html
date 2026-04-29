@@ -1,5 +1,5 @@
 {{ define "main" }}
-  {{ $data := index .Site.Data .Site.Language.Lang }}
+  {{ $data := index hugo.Data .Site.Language.Lang }}
   {{ range $index, $elemen:= $data.portfolio.portfolioitems }}
     <div
       class="post {{ with .Site.Params.doNotLoadAnimations }}

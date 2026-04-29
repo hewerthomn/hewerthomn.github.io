@@ -2,6 +2,15 @@ portfolioitems:
   # portfolio category
   - title: Apps
     portfolioitem:
+      - name: Laravel Error Tracker
+        image: '/images/portfolio/laravel-error-tracker.png'
+        link: https://hewerthomn.com/laravel-error-tracker/
+        linktext: 'Visitar Site do Projeto'
+        description: 'Laravel Error Tracker é um package para acompanhar erros em aplicações Laravel, com dashboard, eventos detalhados, feedback de usuários e recursos para investigar regressões.'
+        tags:
+          - laravel
+          - package
+          - error tracking
       - name: getLonLat
         image: '/images/portfolio/getlonlat.png'
         link: https://getlonlat.com/
