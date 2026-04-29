@@ -11,7 +11,7 @@ alt: "Dashboard do Laravel Error Tracker exibindo issues, eventos e detalhes de 
 relative: true
 hiddenInList: false
 hiddenInSingle: false
-draft: true
+draft: false
 -----------
 
 Eu sempre gostei de criar projetos pequenos para testar ideias.
