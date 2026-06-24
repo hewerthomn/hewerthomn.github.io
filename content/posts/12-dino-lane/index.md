@@ -5,7 +5,13 @@ date: 2026-06-23
 description: "Uma releitura do clássico jogo do dinossauro do Chrome, feita em Godot com outra perspectiva, obstáculos, pontuação e ranking global."
 categories: ["Development"]
 tags: ["godot", "game", "pixel-art", "endless-runner", "dino-lane"]
-draft: true
+draft: false
+cover:
+  image: "cover.jpg"
+  alt: "Dino Lane"
+  relative: true
+  hiddenInList: false
+  hiddenInSingle: false
 ---
 
 Um dia desses a internet caiu.
@@ -18,17 +24,18 @@ Parado no deserto, esperando alguém apertar espaço para começar a correr.
 
 <!--more-->
 
-Acho curioso como um jogo tão simples consegue ser tão reconhecível. Não tem menu complicado, não tem tutorial, não tem login, não tem inventário, não tem upgrade, não tem nada. Só um dinossauro, alguns cactos e aquela vontade besta de tentar bater o próprio recorde.
+![Dino Lane](cover.jpg)
+
+Acho curioso como um jogo tão simples consegue ser tão reconhecível. Não tem menu complicado, não tem tutorial, não tem login, não tem inventário, não tem upgrade, não tem nada. Só um dinossauro, alguns cactos e aquela vontade de bater o próprio recorde.
 
 Mas dessa vez, olhando para ele, pensei:
 
 E se fosse de outro jeito?
 
-Não exatamente de lado, como o original. E se o dinossauro estivesse correndo por pistas, visto por uma perspectiva diferente, quase como um endless runner em lanes?
+Não exatamente de lado, como o original. E se o dino estivesse correndo numa pistas, numa perspectiva diferente,
+quase como aqueles joguinhos endless runner?
 
 Foi daí que nasceu o **Dino Lane**.
-
-A ideia era simples: fazer uma releitura daquele joguinho clássico de quando a internet cai, mas mudando a perspectiva. Em vez do dino correr lateralmente no deserto, ele corre por faixas, desviando de cactos, troncos e outros obstáculos no caminho.
 
 Como eu estava estudando e brincando com a **Godot**, resolvi transformar a ideia em um projetinho jogável.
 
@@ -74,25 +81,7 @@ E claro, como todo ranking, ele também serve para passar raiva quando você mor
 
 ## Jogue
 
-O jogo está disponível aqui:
-
-[Dino Lane](https://dino.hewerthomn.com)
-
-E como ele roda direto no navegador, também dá para deixar o jogo embutido no próprio post:
-
-<div style="position: relative; width: 100%; padding-top: 177.78%; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255, 255, 255, 0.12);">
-  <iframe
-    src="https://dino.hewerthomn.com"
-    title="Dino Lane"
-    style="position: absolute; inset: 0; width: 100%; height: 100%; border: 0;"
-    loading="lazy"
-    allowfullscreen>
-  </iframe>
-</div>
-
-Talvez seja meio exagerado colocar um jogo inteiro dentro de um post.
-
-Mas considerando que ele nasceu justamente de um momento em que a internet caiu, acho justo deixar ele a um clique de distância.
+O jogo está disponível aqui: [Dino Lane](https://dino.hewerthomn.com/game)
 
 No fim, Dino Lane é isso: uma pequena homenagem ao dinossauro do Chrome, mas visto por outro ângulo.
 

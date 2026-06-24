@@ -2,15 +2,6 @@ portfolioitems:
   # portfolio category
   - title: Apps
     portfolioitem:
-      - name: Laravel Error Tracker
-        image: '/images/portfolio/laravel-error-tracker.png'
-        link: https://hewerthomn.com/laravel-error-tracker/
-        linktext: 'Visitar Site do Projeto'
-        description: 'Laravel Error Tracker é um package para acompanhar erros em aplicações Laravel, com dashboard, eventos detalhados, feedback de usuários e recursos para investigar regressões.'
-        tags:
-          - laravel
-          - package
-          - error tracking
       - name: getLonLat
         image: '/images/portfolio/getlonlat.png'
         link: https://getlonlat.com/
@@ -23,15 +14,15 @@ portfolioitems:
   # portfolio category
   - title: Projetos de códigos
     portfolioitem:
-      - name: Dino Lane
-        image: '/images/portfolio/dino-lane.png'
-        link: https://dino.hewerthomn.com/
+      - name: Laravel Error Tracker
+        image: '/images/portfolio/laravel-error-tracker.png'
+        link: https://hewerthomn.com/laravel-error-tracker/
         linktext: 'Visitar Site do Projeto'
-        description: 'Dino Lane é um endless runner feito em Godot, inspirado no clássico dinossauro do Chrome, mas com perspectiva em lanes, obstáculos e ranking global.'
+        description: 'Laravel Error Tracker é um package para acompanhar erros em aplicações Laravel, com dashboard, eventos detalhados, feedback de usuários e recursos para investigar regressões.'
         tags:
-          - godot
-          - game
-          - pixel-art
+          - laravel
+          - package
+          - error tracking
       - name: Snake Duino III
         image: '/images/portfolio/snake-duino-3.jpg'
         link: https://github.com/hewerthomn/snake-duino-III
@@ -56,6 +47,18 @@ portfolioitems:
         tags:
           - extension
           - chrome
+  # portfolio category
+  - title: Jogos
+    portfolioitem:
+      - name: Dino Lane
+        image: '/images/portfolio/dino-lane.png'
+        link: https://dino.hewerthomn.com/
+        linktext: 'Visitar Site do Projeto'
+        description: 'Dino Lane é um endless runner feito em Godot, inspirado no clássico dinossauro do Chrome, mas com perspectiva em lanes, obstáculos e ranking global.'
+        tags:
+          - godot
+          - game
+          - pixel-art
       - name: Wario Land com Unity
         image: /images/portfolio/wario-land-unity.png
         link: https://github.com/hewerthomn/wario-land-3-unity
