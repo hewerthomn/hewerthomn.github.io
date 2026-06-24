@@ -23,6 +23,15 @@ portfolioitems:
   # portfolio category
   - title: Projetos de códigos
     portfolioitem:
+      - name: Dino Lane
+        image: '/images/portfolio/dino-lane.png'
+        link: https://dino.hewerthomn.com/
+        linktext: 'Visitar Site do Projeto'
+        description: 'Dino Lane é um endless runner feito em Godot, inspirado no clássico dinossauro do Chrome, mas com perspectiva em lanes, obstáculos e ranking global.'
+        tags:
+          - godot
+          - game
+          - pixel-art
       - name: Snake Duino III
         image: '/images/portfolio/snake-duino-3.jpg'
         link: https://github.com/hewerthomn/snake-duino-III
